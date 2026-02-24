@@ -1,0 +1,1 @@
+/home/joe/robot_ws/build/ired_msgs/ament_cmake_core/ired_msgsConfig-version.cmake

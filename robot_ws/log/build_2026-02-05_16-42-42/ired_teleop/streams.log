@@ -1,0 +1,24 @@
+[1.301s] Invoking command in '/home/joe/robot_ws/build/ired_teleop': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/joe/robot_ws/build/ired_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/joe/robot_ws/install/ired_teleop/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/joe/robot_ws/build/ired_teleop/build --no-deps symlink_data
+[1.604s] running develop
+[1.789s] running egg_info
+[1.790s] creating ired_teleop.egg-info
+[1.812s] writing ired_teleop.egg-info/PKG-INFO
+[1.812s] writing dependency_links to ired_teleop.egg-info/dependency_links.txt
+[1.812s] writing entry points to ired_teleop.egg-info/entry_points.txt
+[1.812s] writing requirements to ired_teleop.egg-info/requires.txt
+[1.813s] writing top-level names to ired_teleop.egg-info/top_level.txt
+[1.813s] writing manifest file 'ired_teleop.egg-info/SOURCES.txt'
+[1.853s] reading manifest file 'ired_teleop.egg-info/SOURCES.txt'
+[1.853s] writing manifest file 'ired_teleop.egg-info/SOURCES.txt'
+[1.871s] running build_ext
+[1.871s] Creating /home/joe/robot_ws/install/ired_teleop/lib/python3.12/site-packages/ired-teleop.egg-link (link to .)
+[1.871s] Installing teleop_keyboard script to /home/joe/robot_ws/install/ired_teleop/lib/ired_teleop
+[1.872s] 
+[1.872s] Installed /home/joe/robot_ws/build/ired_teleop
+[1.872s] running symlink_data
+[1.872s] creating /home/joe/robot_ws/install/ired_teleop/share/ament_index
+[1.872s] creating /home/joe/robot_ws/install/ired_teleop/share/ament_index/resource_index
+[1.872s] creating /home/joe/robot_ws/install/ired_teleop/share/ament_index/resource_index/packages
+[1.872s] symbolically linking /home/joe/robot_ws/build/ired_teleop/resource/ired_teleop -> /home/joe/robot_ws/install/ired_teleop/share/ament_index/resource_index/packages
+[1.872s] symbolically linking /home/joe/robot_ws/build/ired_teleop/package.xml -> /home/joe/robot_ws/install/ired_teleop/share/ired_teleop
+[1.920s] Invoked command in '/home/joe/robot_ws/build/ired_teleop' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/joe/robot_ws/build/ired_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/joe/robot_ws/install/ired_teleop/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/joe/robot_ws/build/ired_teleop/build --no-deps symlink_data

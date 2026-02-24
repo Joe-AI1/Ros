@@ -1,0 +1,627 @@
+[0.131s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.131s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7a7c8fcbe960>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7a7c8fcbc2c0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7a7c8fcbc2c0>>, mixin_verb=('build',))
+[0.180s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.180s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.180s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.180s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.180s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.180s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.180s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/joe/robot_ws'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot) by extensions ['ignore', 'ignore_ament_install']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot) by extension 'ignore'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot) by extension 'ignore_ament_install'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot) by extensions ['colcon_pkg']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot) by extension 'colcon_pkg'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot) by extensions ['colcon_meta']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot) by extension 'colcon_meta'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot) by extensions ['ros']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot) by extension 'ros'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot) by extensions ['cmake', 'python']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot) by extension 'cmake'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot) by extension 'python'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot) by extensions ['python_setup_py']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot) by extension 'python_setup_py'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/cms) by extensions ['ignore', 'ignore_ament_install']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/cms) by extension 'ignore'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/cms) by extension 'ignore_ament_install'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/cms) by extensions ['colcon_pkg']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/cms) by extension 'colcon_pkg'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/cms) by extensions ['colcon_meta']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/cms) by extension 'colcon_meta'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/cms) by extensions ['ros']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/cms) by extension 'ros'
+[0.224s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot/cms' with type 'ros.ament_cmake' and name 'csm'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/ired_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/ired_bringup) by extension 'ignore'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/ired_bringup) by extension 'ignore_ament_install'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/ired_bringup) by extensions ['colcon_pkg']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/ired_bringup) by extension 'colcon_pkg'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/ired_bringup) by extensions ['colcon_meta']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/ired_bringup) by extension 'colcon_meta'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/ired_bringup) by extensions ['ros']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/ired_bringup) by extension 'ros'
+[0.226s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot/ired_bringup' with type 'ros.ament_cmake' and name 'ired_bringup'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/ired_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/ired_msgs) by extension 'ignore'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/ired_msgs) by extension 'ignore_ament_install'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/ired_msgs) by extensions ['colcon_pkg']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/ired_msgs) by extension 'colcon_pkg'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/ired_msgs) by extensions ['colcon_meta']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/ired_msgs) by extension 'colcon_meta'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/ired_msgs) by extensions ['ros']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/ired_msgs) by extension 'ros'
+[0.228s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot/ired_msgs' with type 'ros.ament_cmake' and name 'ired_msgs'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/ired_navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/ired_navigation) by extension 'ignore'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/ired_navigation) by extension 'ignore_ament_install'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/ired_navigation) by extensions ['colcon_pkg']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/ired_navigation) by extension 'colcon_pkg'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/ired_navigation) by extensions ['colcon_meta']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/ired_navigation) by extension 'colcon_meta'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/ired_navigation) by extensions ['ros']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/ired_navigation) by extension 'ros'
+[0.229s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot/ired_navigation' with type 'ros.ament_cmake' and name 'ired_navigation'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/ired_rviz) by extensions ['ignore', 'ignore_ament_install']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/ired_rviz) by extension 'ignore'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/ired_rviz) by extension 'ignore_ament_install'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/ired_rviz) by extensions ['colcon_pkg']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/ired_rviz) by extension 'colcon_pkg'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/ired_rviz) by extensions ['colcon_meta']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/ired_rviz) by extension 'colcon_meta'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/ired_rviz) by extensions ['ros']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/ired_rviz) by extension 'ros'
+[0.230s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot/ired_rviz' with type 'ros.ament_cmake' and name 'ired_rviz'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/ired_teleop) by extensions ['ignore', 'ignore_ament_install']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/ired_teleop) by extension 'ignore'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/ired_teleop) by extension 'ignore_ament_install'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/ired_teleop) by extensions ['colcon_pkg']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/ired_teleop) by extension 'colcon_pkg'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/ired_teleop) by extensions ['colcon_meta']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/ired_teleop) by extension 'colcon_meta'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/ired_teleop) by extensions ['ros']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/ired_teleop) by extension 'ros'
+[0.231s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot/ired_teleop' with type 'ros.ament_python' and name 'ired_teleop'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/ros2_laser_scan_matcher) by extensions ['ignore', 'ignore_ament_install']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/ros2_laser_scan_matcher) by extension 'ignore'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/ros2_laser_scan_matcher) by extension 'ignore_ament_install'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/ros2_laser_scan_matcher) by extensions ['colcon_pkg']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/ros2_laser_scan_matcher) by extension 'colcon_pkg'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/ros2_laser_scan_matcher) by extensions ['colcon_meta']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/ros2_laser_scan_matcher) by extension 'colcon_meta'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/ros2_laser_scan_matcher) by extensions ['ros']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/ros2_laser_scan_matcher) by extension 'ros'
+[0.232s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot/ros2_laser_scan_matcher' with type 'ros.ament_cmake' and name 'ros2_laser_scan_matcher'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/rplidar_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/rplidar_ros) by extension 'ignore'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/rplidar_ros) by extension 'ignore_ament_install'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/rplidar_ros) by extensions ['colcon_pkg']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/rplidar_ros) by extension 'colcon_pkg'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/rplidar_ros) by extensions ['colcon_meta']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/rplidar_ros) by extension 'colcon_meta'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/rplidar_ros) by extensions ['ros']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot/rplidar_ros) by extension 'ros'
+[0.234s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot/rplidar_ros' with type 'ros.ament_cmake' and name 'rplidar_ros'
+[0.234s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.234s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.234s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.234s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.234s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.255s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.255s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.257s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/joe/robot_ws/install
+[0.260s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 384 installed packages in /opt/ros/jazzy
+[0.261s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.322s] Level 5:colcon.colcon_core.verb:set package 'csm' build argument 'cmake_args' from command line to 'None'
+[0.323s] Level 5:colcon.colcon_core.verb:set package 'csm' build argument 'cmake_target' from command line to 'None'
+[0.323s] Level 5:colcon.colcon_core.verb:set package 'csm' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.323s] Level 5:colcon.colcon_core.verb:set package 'csm' build argument 'cmake_clean_cache' from command line to 'False'
+[0.323s] Level 5:colcon.colcon_core.verb:set package 'csm' build argument 'cmake_clean_first' from command line to 'False'
+[0.323s] Level 5:colcon.colcon_core.verb:set package 'csm' build argument 'cmake_force_configure' from command line to 'False'
+[0.323s] Level 5:colcon.colcon_core.verb:set package 'csm' build argument 'ament_cmake_args' from command line to 'None'
+[0.323s] Level 5:colcon.colcon_core.verb:set package 'csm' build argument 'catkin_cmake_args' from command line to 'None'
+[0.323s] Level 5:colcon.colcon_core.verb:set package 'csm' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.323s] DEBUG:colcon.colcon_core.verb:Building package 'csm' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/joe/robot_ws/build/csm', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/joe/robot_ws/install/csm', 'merge_install': False, 'path': '/home/joe/robot_ws/src/robot/cms', 'symlink_install': True, 'test_result_base': None}
+[0.323s] Level 5:colcon.colcon_core.verb:set package 'ired_msgs' build argument 'cmake_args' from command line to 'None'
+[0.323s] Level 5:colcon.colcon_core.verb:set package 'ired_msgs' build argument 'cmake_target' from command line to 'None'
+[0.323s] Level 5:colcon.colcon_core.verb:set package 'ired_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.323s] Level 5:colcon.colcon_core.verb:set package 'ired_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.323s] Level 5:colcon.colcon_core.verb:set package 'ired_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.323s] Level 5:colcon.colcon_core.verb:set package 'ired_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.324s] Level 5:colcon.colcon_core.verb:set package 'ired_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.324s] Level 5:colcon.colcon_core.verb:set package 'ired_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.324s] Level 5:colcon.colcon_core.verb:set package 'ired_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.324s] DEBUG:colcon.colcon_core.verb:Building package 'ired_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/joe/robot_ws/build/ired_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/joe/robot_ws/install/ired_msgs', 'merge_install': False, 'path': '/home/joe/robot_ws/src/robot/ired_msgs', 'symlink_install': True, 'test_result_base': None}
+[0.324s] Level 5:colcon.colcon_core.verb:set package 'ired_navigation' build argument 'cmake_args' from command line to 'None'
+[0.324s] Level 5:colcon.colcon_core.verb:set package 'ired_navigation' build argument 'cmake_target' from command line to 'None'
+[0.324s] Level 5:colcon.colcon_core.verb:set package 'ired_navigation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.324s] Level 5:colcon.colcon_core.verb:set package 'ired_navigation' build argument 'cmake_clean_cache' from command line to 'False'
+[0.324s] Level 5:colcon.colcon_core.verb:set package 'ired_navigation' build argument 'cmake_clean_first' from command line to 'False'
+[0.324s] Level 5:colcon.colcon_core.verb:set package 'ired_navigation' build argument 'cmake_force_configure' from command line to 'False'
+[0.324s] Level 5:colcon.colcon_core.verb:set package 'ired_navigation' build argument 'ament_cmake_args' from command line to 'None'
+[0.324s] Level 5:colcon.colcon_core.verb:set package 'ired_navigation' build argument 'catkin_cmake_args' from command line to 'None'
+[0.324s] Level 5:colcon.colcon_core.verb:set package 'ired_navigation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.324s] DEBUG:colcon.colcon_core.verb:Building package 'ired_navigation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/joe/robot_ws/build/ired_navigation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/joe/robot_ws/install/ired_navigation', 'merge_install': False, 'path': '/home/joe/robot_ws/src/robot/ired_navigation', 'symlink_install': True, 'test_result_base': None}
+[0.325s] Level 5:colcon.colcon_core.verb:set package 'ired_rviz' build argument 'cmake_args' from command line to 'None'
+[0.325s] Level 5:colcon.colcon_core.verb:set package 'ired_rviz' build argument 'cmake_target' from command line to 'None'
+[0.325s] Level 5:colcon.colcon_core.verb:set package 'ired_rviz' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.325s] Level 5:colcon.colcon_core.verb:set package 'ired_rviz' build argument 'cmake_clean_cache' from command line to 'False'
+[0.325s] Level 5:colcon.colcon_core.verb:set package 'ired_rviz' build argument 'cmake_clean_first' from command line to 'False'
+[0.325s] Level 5:colcon.colcon_core.verb:set package 'ired_rviz' build argument 'cmake_force_configure' from command line to 'False'
+[0.325s] Level 5:colcon.colcon_core.verb:set package 'ired_rviz' build argument 'ament_cmake_args' from command line to 'None'
+[0.325s] Level 5:colcon.colcon_core.verb:set package 'ired_rviz' build argument 'catkin_cmake_args' from command line to 'None'
+[0.325s] Level 5:colcon.colcon_core.verb:set package 'ired_rviz' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.325s] DEBUG:colcon.colcon_core.verb:Building package 'ired_rviz' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/joe/robot_ws/build/ired_rviz', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/joe/robot_ws/install/ired_rviz', 'merge_install': False, 'path': '/home/joe/robot_ws/src/robot/ired_rviz', 'symlink_install': True, 'test_result_base': None}
+[0.325s] Level 5:colcon.colcon_core.verb:set package 'ired_teleop' build argument 'cmake_args' from command line to 'None'
+[0.325s] Level 5:colcon.colcon_core.verb:set package 'ired_teleop' build argument 'cmake_target' from command line to 'None'
+[0.325s] Level 5:colcon.colcon_core.verb:set package 'ired_teleop' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.325s] Level 5:colcon.colcon_core.verb:set package 'ired_teleop' build argument 'cmake_clean_cache' from command line to 'False'
+[0.325s] Level 5:colcon.colcon_core.verb:set package 'ired_teleop' build argument 'cmake_clean_first' from command line to 'False'
+[0.325s] Level 5:colcon.colcon_core.verb:set package 'ired_teleop' build argument 'cmake_force_configure' from command line to 'False'
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'ired_teleop' build argument 'ament_cmake_args' from command line to 'None'
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'ired_teleop' build argument 'catkin_cmake_args' from command line to 'None'
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'ired_teleop' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.326s] DEBUG:colcon.colcon_core.verb:Building package 'ired_teleop' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/joe/robot_ws/build/ired_teleop', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/joe/robot_ws/install/ired_teleop', 'merge_install': False, 'path': '/home/joe/robot_ws/src/robot/ired_teleop', 'symlink_install': True, 'test_result_base': None}
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_args' from command line to 'None'
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_target' from command line to 'None'
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_clean_first' from command line to 'False'
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_force_configure' from command line to 'False'
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'ament_cmake_args' from command line to 'None'
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.326s] DEBUG:colcon.colcon_core.verb:Building package 'rplidar_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/joe/robot_ws/build/rplidar_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/joe/robot_ws/install/rplidar_ros', 'merge_install': False, 'path': '/home/joe/robot_ws/src/robot/rplidar_ros', 'symlink_install': True, 'test_result_base': None}
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'ired_bringup' build argument 'cmake_args' from command line to 'None'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'ired_bringup' build argument 'cmake_target' from command line to 'None'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'ired_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'ired_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'ired_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'ired_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'ired_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'ired_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'ired_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.327s] DEBUG:colcon.colcon_core.verb:Building package 'ired_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/joe/robot_ws/build/ired_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/joe/robot_ws/install/ired_bringup', 'merge_install': False, 'path': '/home/joe/robot_ws/src/robot/ired_bringup', 'symlink_install': True, 'test_result_base': None}
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'ros2_laser_scan_matcher' build argument 'cmake_args' from command line to 'None'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'ros2_laser_scan_matcher' build argument 'cmake_target' from command line to 'None'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'ros2_laser_scan_matcher' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'ros2_laser_scan_matcher' build argument 'cmake_clean_cache' from command line to 'False'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'ros2_laser_scan_matcher' build argument 'cmake_clean_first' from command line to 'False'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'ros2_laser_scan_matcher' build argument 'cmake_force_configure' from command line to 'False'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'ros2_laser_scan_matcher' build argument 'ament_cmake_args' from command line to 'None'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'ros2_laser_scan_matcher' build argument 'catkin_cmake_args' from command line to 'None'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'ros2_laser_scan_matcher' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.327s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_laser_scan_matcher' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/joe/robot_ws/build/ros2_laser_scan_matcher', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/joe/robot_ws/install/ros2_laser_scan_matcher', 'merge_install': False, 'path': '/home/joe/robot_ws/src/robot/ros2_laser_scan_matcher', 'symlink_install': True, 'test_result_base': None}
+[0.328s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.329s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.329s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/joe/robot_ws/src/robot/cms' with build type 'ament_cmake'
+[0.329s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/joe/robot_ws/src/robot/cms'
+[0.332s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.332s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.332s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.337s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/joe/robot_ws/src/robot/ired_msgs' with build type 'ament_cmake'
+[0.337s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/joe/robot_ws/src/robot/ired_msgs'
+[0.338s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.338s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.342s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/joe/robot_ws/src/robot/ired_navigation' with build type 'ament_cmake'
+[0.342s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/joe/robot_ws/src/robot/ired_navigation'
+[0.342s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.342s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.346s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/joe/robot_ws/src/robot/ired_rviz' with build type 'ament_cmake'
+[0.346s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/joe/robot_ws/src/robot/ired_rviz'
+[0.346s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.347s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.350s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/joe/robot_ws/src/robot/ired_teleop' with build type 'ament_python'
+[0.350s] Level 1:colcon.colcon_core.shell:create_environment_hook('ired_teleop', 'ament_prefix_path')
+[0.351s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joe/robot_ws/install/ired_teleop/share/ired_teleop/hook/ament_prefix_path.ps1'
+[0.351s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/joe/robot_ws/install/ired_teleop/share/ired_teleop/hook/ament_prefix_path.dsv'
+[0.352s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joe/robot_ws/install/ired_teleop/share/ired_teleop/hook/ament_prefix_path.sh'
+[0.353s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.353s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.357s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/joe/robot_ws/src/robot/rplidar_ros' with build type 'ament_cmake'
+[0.357s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/joe/robot_ws/src/robot/rplidar_ros'
+[0.357s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.357s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.366s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/joe/robot_ws/build/csm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/joe/robot_ws/src/robot/cms -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/joe/robot_ws/install/csm
+[0.375s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/joe/robot_ws/build/ired_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/joe/robot_ws/src/robot/ired_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/joe/robot_ws/install/ired_msgs
+[0.377s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/joe/robot_ws/build/ired_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/joe/robot_ws/src/robot/ired_navigation -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/joe/robot_ws/install/ired_navigation
+[0.379s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/joe/robot_ws/build/ired_rviz': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/joe/robot_ws/src/robot/ired_rviz -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/joe/robot_ws/install/ired_rviz
+[0.654s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/joe/robot_ws/src/robot/ired_teleop'
+[0.654s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.654s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.666s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/joe/robot_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/joe/robot_ws/src/robot/rplidar_ros -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/joe/robot_ws/install/rplidar_ros
+[1.644s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/joe/robot_ws/build/ired_rviz' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/joe/robot_ws/src/robot/ired_rviz -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/joe/robot_ws/install/ired_rviz
+[1.645s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/joe/robot_ws/build/ired_rviz': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/joe/robot_ws/build/ired_rviz -- -j16 -l16
+[1.646s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/joe/robot_ws/build/ired_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/joe/robot_ws/src/robot/ired_navigation -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/joe/robot_ws/install/ired_navigation
+[1.647s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/joe/robot_ws/build/ired_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/joe/robot_ws/build/ired_navigation -- -j16 -l16
+[1.652s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/joe/robot_ws/build/ired_teleop': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/joe/robot_ws/build/ired_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/joe/robot_ws/install/ired_teleop/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/joe/robot_ws/build/ired_teleop/build --no-deps symlink_data
+[1.683s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/joe/robot_ws/build/ired_rviz' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/joe/robot_ws/build/ired_rviz -- -j16 -l16
+[1.694s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/joe/robot_ws/build/ired_rviz': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/joe/robot_ws/build/ired_rviz
+[1.695s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/joe/robot_ws/build/ired_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/joe/robot_ws/build/ired_navigation -- -j16 -l16
+[1.696s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/joe/robot_ws/build/ired_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/joe/robot_ws/build/ired_navigation
+[1.892s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ired_rviz)
+[1.893s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/joe/robot_ws/build/ired_rviz' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/joe/robot_ws/build/ired_rviz
+[1.897s] Level 1:colcon.colcon_core.environment:checking '/home/joe/robot_ws/install/ired_rviz' for CMake module files
+[1.897s] Level 1:colcon.colcon_core.environment:checking '/home/joe/robot_ws/install/ired_rviz' for CMake config files
+[1.897s] Level 1:colcon.colcon_core.shell:create_environment_hook('ired_rviz', 'cmake_prefix_path')
+[1.898s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joe/robot_ws/install/ired_rviz/share/ired_rviz/hook/cmake_prefix_path.ps1'
+[1.898s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/joe/robot_ws/install/ired_rviz/share/ired_rviz/hook/cmake_prefix_path.dsv'
+[1.898s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joe/robot_ws/install/ired_rviz/share/ired_rviz/hook/cmake_prefix_path.sh'
+[1.899s] Level 1:colcon.colcon_core.environment:checking '/home/joe/robot_ws/install/ired_rviz/bin'
+[1.899s] Level 1:colcon.colcon_core.environment:checking '/home/joe/robot_ws/install/ired_rviz/lib/pkgconfig/ired_rviz.pc'
+[1.899s] Level 1:colcon.colcon_core.environment:checking '/home/joe/robot_ws/install/ired_rviz/lib/python3.12/site-packages'
+[1.899s] Level 1:colcon.colcon_core.environment:checking '/home/joe/robot_ws/install/ired_rviz/bin'
+[1.900s] INFO:colcon.colcon_core.shell:Creating package script '/home/joe/robot_ws/install/ired_rviz/share/ired_rviz/package.ps1'
+[1.900s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/joe/robot_ws/install/ired_rviz/share/ired_rviz/package.dsv'
+[1.901s] INFO:colcon.colcon_core.shell:Creating package script '/home/joe/robot_ws/install/ired_rviz/share/ired_rviz/package.sh'
+[1.901s] INFO:colcon.colcon_core.shell:Creating package script '/home/joe/robot_ws/install/ired_rviz/share/ired_rviz/package.bash'
+[1.902s] INFO:colcon.colcon_core.shell:Creating package script '/home/joe/robot_ws/install/ired_rviz/share/ired_rviz/package.zsh'
+[1.903s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/joe/robot_ws/install/ired_rviz/share/colcon-core/packages/ired_rviz)
+[1.903s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ired_rviz)
+[1.903s] Level 1:colcon.colcon_core.environment:checking '/home/joe/robot_ws/install/ired_rviz' for CMake module files
+[1.905s] Level 1:colcon.colcon_core.environment:checking '/home/joe/robot_ws/install/ired_rviz' for CMake config files
+[1.905s] Level 1:colcon.colcon_core.shell:create_environment_hook('ired_rviz', 'cmake_prefix_path')
+[1.905s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joe/robot_ws/install/ired_rviz/share/ired_rviz/hook/cmake_prefix_path.ps1'
+[1.905s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/joe/robot_ws/install/ired_rviz/share/ired_rviz/hook/cmake_prefix_path.dsv'
+[1.906s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joe/robot_ws/install/ired_rviz/share/ired_rviz/hook/cmake_prefix_path.sh'
+[1.906s] Level 1:colcon.colcon_core.environment:checking '/home/joe/robot_ws/install/ired_rviz/bin'
+[1.906s] Level 1:colcon.colcon_core.environment:checking '/home/joe/robot_ws/install/ired_rviz/lib/pkgconfig/ired_rviz.pc'
+[1.906s] Level 1:colcon.colcon_core.environment:checking '/home/joe/robot_ws/install/ired_rviz/lib/python3.12/site-packages'
+[1.906s] Level 1:colcon.colcon_core.environment:checking '/home/joe/robot_ws/install/ired_rviz/bin'
+[1.907s] INFO:colcon.colcon_core.shell:Creating package script '/home/joe/robot_ws/install/ired_rviz/share/ired_rviz/package.ps1'
+[1.907s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/joe/robot_ws/install/ired_rviz/share/ired_rviz/package.dsv'
+[1.907s] INFO:colcon.colcon_core.shell:Creating package script '/home/joe/robot_ws/install/ired_rviz/share/ired_rviz/package.sh'
+[1.908s] INFO:colcon.colcon_core.shell:Creating package script '/home/joe/robot_ws/install/ired_rviz/share/ired_rviz/package.bash'
+[1.908s] INFO:colcon.colcon_core.shell:Creating package script '/home/joe/robot_ws/install/ired_rviz/share/ired_rviz/package.zsh'
+[1.908s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/joe/robot_ws/install/ired_rviz/share/colcon-core/packages/ired_rviz)
+[1.924s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ired_navigation)
+[1.924s] Level 1:colcon.colcon_core.environment:checking '/home/joe/robot_ws/install/ired_navigation' for CMake module files
+[1.925s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/joe/robot_ws/build/ired_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/joe/robot_ws/build/ired_navigation
+[1.925s] Level 1:colcon.colcon_core.environment:checking '/home/joe/robot_ws/install/ired_navigation' for CMake config files
+[1.926s] Level 1:colcon.colcon_core.shell:create_environment_hook('ired_navigation', 'cmake_prefix_path')
+[1.926s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joe/robot_ws/install/ired_navigation/share/ired_navigation/hook/cmake_prefix_path.ps1'
+[1.926s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/joe/robot_ws/install/ired_navigation/share/ired_navigation/hook/cmake_prefix_path.dsv'
+[1.926s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joe/robot_ws/install/ired_navigation/share/ired_navigation/hook/cmake_prefix_path.sh'
+[1.927s] Level 1:colcon.colcon_core.environment:checking '/home/joe/robot_ws/install/ired_navigation/bin'
+[1.927s] Level 1:colcon.colcon_core.environment:checking '/home/joe/robot_ws/install/ired_navigation/lib/pkgconfig/ired_navigation.pc'
+[1.927s] Level 1:colcon.colcon_core.environment:checking '/home/joe/robot_ws/install/ired_navigation/lib/python3.12/site-packages'
+[1.927s] Level 1:colcon.colcon_core.environment:checking '/home/joe/robot_ws/install/ired_navigation/bin'
+[1.927s] INFO:colcon.colcon_core.shell:Creating package script '/home/joe/robot_ws/install/ired_navigation/share/ired_navigation/package.ps1'
+[1.928s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/joe/robot_ws/install/ired_navigation/share/ired_navigation/package.dsv'
+[1.928s] INFO:colcon.colcon_core.shell:Creating package script '/home/joe/robot_ws/install/ired_navigation/share/ired_navigation/package.sh'
+[1.929s] INFO:colcon.colcon_core.shell:Creating package script '/home/joe/robot_ws/install/ired_navigation/share/ired_navigation/package.bash'
+[1.929s] INFO:colcon.colcon_core.shell:Creating package script '/home/joe/robot_ws/install/ired_navigation/share/ired_navigation/package.zsh'
+[1.929s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/joe/robot_ws/install/ired_navigation/share/colcon-core/packages/ired_navigation)
+[1.929s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ired_navigation)
+[1.930s] Level 1:colcon.colcon_core.environment:checking '/home/joe/robot_ws/install/ired_navigation' for CMake module files
+[1.930s] Level 1:colcon.colcon_core.environment:checking '/home/joe/robot_ws/install/ired_navigation' for CMake config files
+[1.930s] Level 1:colcon.colcon_core.shell:create_environment_hook('ired_navigation', 'cmake_prefix_path')
+[1.930s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joe/robot_ws/install/ired_navigation/share/ired_navigation/hook/cmake_prefix_path.ps1'
+[1.931s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/joe/robot_ws/install/ired_navigation/share/ired_navigation/hook/cmake_prefix_path.dsv'
+[1.931s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joe/robot_ws/install/ired_navigation/share/ired_navigation/hook/cmake_prefix_path.sh'
+[1.932s] Level 1:colcon.colcon_core.environment:checking '/home/joe/robot_ws/install/ired_navigation/bin'
+[1.932s] Level 1:colcon.colcon_core.environment:checking '/home/joe/robot_ws/install/ired_navigation/lib/pkgconfig/ired_navigation.pc'
+[1.932s] Level 1:colcon.colcon_core.environment:checking '/home/joe/robot_ws/install/ired_navigation/lib/python3.12/site-packages'
+[1.932s] Level 1:colcon.colcon_core.environment:checking '/home/joe/robot_ws/install/ired_navigation/bin'
+[1.932s] INFO:colcon.colcon_core.shell:Creating package script '/home/joe/robot_ws/install/ired_navigation/share/ired_navigation/package.ps1'
+[1.933s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/joe/robot_ws/install/ired_navigation/share/ired_navigation/package.dsv'
+[1.933s] INFO:colcon.colcon_core.shell:Creating package script '/home/joe/robot_ws/install/ired_navigation/share/ired_navigation/package.sh'
+[1.933s] INFO:colcon.colcon_core.shell:Creating package script '/home/joe/robot_ws/install/ired_navigation/share/ired_navigation/package.bash'
+[1.934s] INFO:colcon.colcon_core.shell:Creating package script '/home/joe/robot_ws/install/ired_navigation/share/ired_navigation/package.zsh'
+[1.934s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/joe/robot_ws/install/ired_navigation/share/colcon-core/packages/ired_navigation)
+[2.107s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/joe/robot_ws/build/csm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/joe/robot_ws/src/robot/cms -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/joe/robot_ws/install/csm
+[2.108s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/joe/robot_ws/build/csm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/joe/robot_ws/build/csm -- -j16 -l16
+[2.241s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/joe/robot_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/joe/robot_ws/src/robot/rplidar_ros -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/joe/robot_ws/install/rplidar_ros
+[2.242s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/joe/robot_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/joe/robot_ws/build/rplidar_ros -- -j16 -l16
+[2.270s] Level 1:colcon.colcon_core.shell:create_environment_hook('ired_teleop', 'pythonpath_develop')
+[2.270s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joe/robot_ws/build/ired_teleop/share/ired_teleop/hook/pythonpath_develop.ps1'
+[2.271s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/joe/robot_ws/build/ired_teleop' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/joe/robot_ws/build/ired_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/joe/robot_ws/install/ired_teleop/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/joe/robot_ws/build/ired_teleop/build --no-deps symlink_data
+[2.272s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/joe/robot_ws/build/ired_teleop/share/ired_teleop/hook/pythonpath_develop.dsv'
+[2.272s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joe/robot_ws/build/ired_teleop/share/ired_teleop/hook/pythonpath_develop.sh'
+[2.273s] Level 1:colcon.colcon_core.environment:checking '/home/joe/robot_ws/install/ired_teleop' for CMake module files
+[2.273s] Level 1:colcon.colcon_core.environment:checking '/home/joe/robot_ws/install/ired_teleop' for CMake config files
+[2.274s] Level 1:colcon.colcon_core.environment:checking '/home/joe/robot_ws/install/ired_teleop/lib'
+[2.274s] Level 1:colcon.colcon_core.environment:checking '/home/joe/robot_ws/install/ired_teleop/bin'
+[2.274s] Level 1:colcon.colcon_core.environment:checking '/home/joe/robot_ws/install/ired_teleop/lib/pkgconfig/ired_teleop.pc'
+[2.275s] Level 1:colcon.colcon_core.environment:checking '/home/joe/robot_ws/install/ired_teleop/lib/python3.12/site-packages'
+[2.275s] Level 1:colcon.colcon_core.shell:create_environment_hook('ired_teleop', 'pythonpath')
+[2.275s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joe/robot_ws/install/ired_teleop/share/ired_teleop/hook/pythonpath.ps1'
+[2.276s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/joe/robot_ws/install/ired_teleop/share/ired_teleop/hook/pythonpath.dsv'
+[2.276s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joe/robot_ws/install/ired_teleop/share/ired_teleop/hook/pythonpath.sh'
+[2.277s] Level 1:colcon.colcon_core.environment:checking '/home/joe/robot_ws/install/ired_teleop/bin'
+[2.277s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ired_teleop)
+[2.278s] INFO:colcon.colcon_core.shell:Creating package script '/home/joe/robot_ws/install/ired_teleop/share/ired_teleop/package.ps1'
+[2.278s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/joe/robot_ws/install/ired_teleop/share/ired_teleop/package.dsv'
+[2.279s] INFO:colcon.colcon_core.shell:Creating package script '/home/joe/robot_ws/install/ired_teleop/share/ired_teleop/package.sh'
+[2.279s] INFO:colcon.colcon_core.shell:Creating package script '/home/joe/robot_ws/install/ired_teleop/share/ired_teleop/package.bash'
+[2.280s] INFO:colcon.colcon_core.shell:Creating package script '/home/joe/robot_ws/install/ired_teleop/share/ired_teleop/package.zsh'
+[2.280s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/joe/robot_ws/install/ired_teleop/share/colcon-core/packages/ired_teleop)
+[7.898s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/joe/robot_ws/build/ired_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/joe/robot_ws/src/robot/ired_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/joe/robot_ws/install/ired_msgs
+[7.900s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/joe/robot_ws/build/ired_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/joe/robot_ws/build/ired_msgs -- -j16 -l16
+[12.077s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/joe/robot_ws/build/ired_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/joe/robot_ws/build/ired_msgs -- -j16 -l16
+[12.078s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/joe/robot_ws/build/ired_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/joe/robot_ws/build/ired_msgs
+[13.564s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ired_msgs)
+[13.564s] Level 1:colcon.colcon_core.environment:checking '/home/joe/robot_ws/install/ired_msgs' for CMake module files
+[13.565s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/joe/robot_ws/build/ired_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/joe/robot_ws/build/ired_msgs
+[13.565s] Level 1:colcon.colcon_core.environment:checking '/home/joe/robot_ws/install/ired_msgs' for CMake config files
+[13.566s] Level 1:colcon.colcon_core.shell:create_environment_hook('ired_msgs', 'cmake_prefix_path')
+[13.566s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joe/robot_ws/install/ired_msgs/share/ired_msgs/hook/cmake_prefix_path.ps1'
+[13.566s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/joe/robot_ws/install/ired_msgs/share/ired_msgs/hook/cmake_prefix_path.dsv'
+[13.567s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joe/robot_ws/install/ired_msgs/share/ired_msgs/hook/cmake_prefix_path.sh'
+[13.567s] Level 1:colcon.colcon_core.environment:checking '/home/joe/robot_ws/install/ired_msgs/lib'
+[13.567s] Level 1:colcon.colcon_core.shell:create_environment_hook('ired_msgs', 'ld_library_path_lib')
+[13.567s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joe/robot_ws/install/ired_msgs/share/ired_msgs/hook/ld_library_path_lib.ps1'
+[13.567s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/joe/robot_ws/install/ired_msgs/share/ired_msgs/hook/ld_library_path_lib.dsv'
+[13.568s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joe/robot_ws/install/ired_msgs/share/ired_msgs/hook/ld_library_path_lib.sh'
+[13.568s] Level 1:colcon.colcon_core.environment:checking '/home/joe/robot_ws/install/ired_msgs/bin'
+[13.568s] Level 1:colcon.colcon_core.environment:checking '/home/joe/robot_ws/install/ired_msgs/lib/pkgconfig/ired_msgs.pc'
+[13.568s] Level 1:colcon.colcon_core.environment:checking '/home/joe/robot_ws/install/ired_msgs/lib/python3.12/site-packages'
+[13.568s] Level 1:colcon.colcon_core.shell:create_environment_hook('ired_msgs', 'pythonpath')
+[13.568s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joe/robot_ws/install/ired_msgs/share/ired_msgs/hook/pythonpath.ps1'
+[13.569s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/joe/robot_ws/install/ired_msgs/share/ired_msgs/hook/pythonpath.dsv'
+[13.569s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joe/robot_ws/install/ired_msgs/share/ired_msgs/hook/pythonpath.sh'
+[13.569s] Level 1:colcon.colcon_core.environment:checking '/home/joe/robot_ws/install/ired_msgs/bin'
+[13.570s] INFO:colcon.colcon_core.shell:Creating package script '/home/joe/robot_ws/install/ired_msgs/share/ired_msgs/package.ps1'
+[13.570s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/joe/robot_ws/install/ired_msgs/share/ired_msgs/package.dsv'
+[13.570s] INFO:colcon.colcon_core.shell:Creating package script '/home/joe/robot_ws/install/ired_msgs/share/ired_msgs/package.sh'
+[13.571s] INFO:colcon.colcon_core.shell:Creating package script '/home/joe/robot_ws/install/ired_msgs/share/ired_msgs/package.bash'
+[13.571s] INFO:colcon.colcon_core.shell:Creating package script '/home/joe/robot_ws/install/ired_msgs/share/ired_msgs/package.zsh'
+[13.571s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/joe/robot_ws/install/ired_msgs/share/colcon-core/packages/ired_msgs)
+[13.572s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ired_msgs)
+[13.572s] Level 1:colcon.colcon_core.environment:checking '/home/joe/robot_ws/install/ired_msgs' for CMake module files
+[13.573s] Level 1:colcon.colcon_core.environment:checking '/home/joe/robot_ws/install/ired_msgs' for CMake config files
+[13.574s] Level 1:colcon.colcon_core.shell:create_environment_hook('ired_msgs', 'cmake_prefix_path')
+[13.574s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joe/robot_ws/install/ired_msgs/share/ired_msgs/hook/cmake_prefix_path.ps1'
+[13.574s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/joe/robot_ws/install/ired_msgs/share/ired_msgs/hook/cmake_prefix_path.dsv'
+[13.574s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joe/robot_ws/install/ired_msgs/share/ired_msgs/hook/cmake_prefix_path.sh'
+[13.575s] Level 1:colcon.colcon_core.environment:checking '/home/joe/robot_ws/install/ired_msgs/lib'
+[13.575s] Level 1:colcon.colcon_core.shell:create_environment_hook('ired_msgs', 'ld_library_path_lib')
+[13.575s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joe/robot_ws/install/ired_msgs/share/ired_msgs/hook/ld_library_path_lib.ps1'
+[13.575s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/joe/robot_ws/install/ired_msgs/share/ired_msgs/hook/ld_library_path_lib.dsv'
+[13.575s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joe/robot_ws/install/ired_msgs/share/ired_msgs/hook/ld_library_path_lib.sh'
+[13.576s] Level 1:colcon.colcon_core.environment:checking '/home/joe/robot_ws/install/ired_msgs/bin'
+[13.576s] Level 1:colcon.colcon_core.environment:checking '/home/joe/robot_ws/install/ired_msgs/lib/pkgconfig/ired_msgs.pc'
+[13.576s] Level 1:colcon.colcon_core.environment:checking '/home/joe/robot_ws/install/ired_msgs/lib/python3.12/site-packages'
+[13.576s] Level 1:colcon.colcon_core.shell:create_environment_hook('ired_msgs', 'pythonpath')
+[13.576s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joe/robot_ws/install/ired_msgs/share/ired_msgs/hook/pythonpath.ps1'
+[13.577s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/joe/robot_ws/install/ired_msgs/share/ired_msgs/hook/pythonpath.dsv'
+[13.577s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joe/robot_ws/install/ired_msgs/share/ired_msgs/hook/pythonpath.sh'
+[13.578s] Level 1:colcon.colcon_core.environment:checking '/home/joe/robot_ws/install/ired_msgs/bin'
+[13.578s] INFO:colcon.colcon_core.shell:Creating package script '/home/joe/robot_ws/install/ired_msgs/share/ired_msgs/package.ps1'
+[13.578s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/joe/robot_ws/install/ired_msgs/share/ired_msgs/package.dsv'
+[13.579s] INFO:colcon.colcon_core.shell:Creating package script '/home/joe/robot_ws/install/ired_msgs/share/ired_msgs/package.sh'
+[13.579s] INFO:colcon.colcon_core.shell:Creating package script '/home/joe/robot_ws/install/ired_msgs/share/ired_msgs/package.bash'
+[13.579s] INFO:colcon.colcon_core.shell:Creating package script '/home/joe/robot_ws/install/ired_msgs/share/ired_msgs/package.zsh'
+[13.580s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/joe/robot_ws/install/ired_msgs/share/colcon-core/packages/ired_msgs)
+[13.580s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/joe/robot_ws/src/robot/ired_bringup' with build type 'ament_cmake'
+[13.580s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/joe/robot_ws/src/robot/ired_bringup'
+[13.580s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[13.580s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[13.593s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/joe/robot_ws/build/ired_bringup': AMENT_PREFIX_PATH=/home/joe/robot_ws/install/ired_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/joe/robot_ws/install/ired_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/joe/robot_ws/install/ired_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/joe/robot_ws/install/ired_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/joe/robot_ws/src/robot/ired_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/joe/robot_ws/install/ired_bringup
+[14.512s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/joe/robot_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/joe/robot_ws/build/rplidar_ros -- -j16 -l16
+[14.514s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/joe/robot_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/joe/robot_ws/build/rplidar_ros
+[14.756s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rplidar_ros)
+[14.756s] Level 1:colcon.colcon_core.environment:checking '/home/joe/robot_ws/install/rplidar_ros' for CMake module files
+[14.757s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/joe/robot_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/joe/robot_ws/build/rplidar_ros
+[14.757s] Level 1:colcon.colcon_core.environment:checking '/home/joe/robot_ws/install/rplidar_ros' for CMake config files
+[14.758s] Level 1:colcon.colcon_core.shell:create_environment_hook('rplidar_ros', 'cmake_prefix_path')
+[14.758s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joe/robot_ws/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.ps1'
+[14.758s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/joe/robot_ws/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.dsv'
+[14.759s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joe/robot_ws/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.sh'
+[14.759s] Level 1:colcon.colcon_core.environment:checking '/home/joe/robot_ws/install/rplidar_ros/lib'
+[14.759s] Level 1:colcon.colcon_core.environment:checking '/home/joe/robot_ws/install/rplidar_ros/bin'
+[14.760s] Level 1:colcon.colcon_core.environment:checking '/home/joe/robot_ws/install/rplidar_ros/lib/pkgconfig/rplidar_ros.pc'
+[14.760s] Level 1:colcon.colcon_core.environment:checking '/home/joe/robot_ws/install/rplidar_ros/lib/python3.12/site-packages'
+[14.760s] Level 1:colcon.colcon_core.environment:checking '/home/joe/robot_ws/install/rplidar_ros/bin'
+[14.760s] INFO:colcon.colcon_core.shell:Creating package script '/home/joe/robot_ws/install/rplidar_ros/share/rplidar_ros/package.ps1'
+[14.761s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/joe/robot_ws/install/rplidar_ros/share/rplidar_ros/package.dsv'
+[14.761s] INFO:colcon.colcon_core.shell:Creating package script '/home/joe/robot_ws/install/rplidar_ros/share/rplidar_ros/package.sh'
+[14.761s] INFO:colcon.colcon_core.shell:Creating package script '/home/joe/robot_ws/install/rplidar_ros/share/rplidar_ros/package.bash'
+[14.762s] INFO:colcon.colcon_core.shell:Creating package script '/home/joe/robot_ws/install/rplidar_ros/share/rplidar_ros/package.zsh'
+[14.762s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/joe/robot_ws/install/rplidar_ros/share/colcon-core/packages/rplidar_ros)
+[14.762s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rplidar_ros)
+[14.762s] Level 1:colcon.colcon_core.environment:checking '/home/joe/robot_ws/install/rplidar_ros' for CMake module files
+[14.763s] Level 1:colcon.colcon_core.environment:checking '/home/joe/robot_ws/install/rplidar_ros' for CMake config files
+[14.763s] Level 1:colcon.colcon_core.shell:create_environment_hook('rplidar_ros', 'cmake_prefix_path')
+[14.763s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joe/robot_ws/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.ps1'
+[14.764s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/joe/robot_ws/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.dsv'
+[14.764s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joe/robot_ws/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.sh'
+[14.765s] Level 1:colcon.colcon_core.environment:checking '/home/joe/robot_ws/install/rplidar_ros/lib'
+[14.765s] Level 1:colcon.colcon_core.environment:checking '/home/joe/robot_ws/install/rplidar_ros/bin'
+[14.765s] Level 1:colcon.colcon_core.environment:checking '/home/joe/robot_ws/install/rplidar_ros/lib/pkgconfig/rplidar_ros.pc'
+[14.765s] Level 1:colcon.colcon_core.environment:checking '/home/joe/robot_ws/install/rplidar_ros/lib/python3.12/site-packages'
+[14.765s] Level 1:colcon.colcon_core.environment:checking '/home/joe/robot_ws/install/rplidar_ros/bin'
+[14.765s] INFO:colcon.colcon_core.shell:Creating package script '/home/joe/robot_ws/install/rplidar_ros/share/rplidar_ros/package.ps1'
+[14.766s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/joe/robot_ws/install/rplidar_ros/share/rplidar_ros/package.dsv'
+[14.766s] INFO:colcon.colcon_core.shell:Creating package script '/home/joe/robot_ws/install/rplidar_ros/share/rplidar_ros/package.sh'
+[14.766s] INFO:colcon.colcon_core.shell:Creating package script '/home/joe/robot_ws/install/rplidar_ros/share/rplidar_ros/package.bash'
+[14.767s] INFO:colcon.colcon_core.shell:Creating package script '/home/joe/robot_ws/install/rplidar_ros/share/rplidar_ros/package.zsh'
+[14.767s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/joe/robot_ws/install/rplidar_ros/share/colcon-core/packages/rplidar_ros)
+[14.904s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/joe/robot_ws/build/ired_bringup' returned '0': AMENT_PREFIX_PATH=/home/joe/robot_ws/install/ired_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/joe/robot_ws/install/ired_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/joe/robot_ws/install/ired_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/joe/robot_ws/install/ired_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/joe/robot_ws/src/robot/ired_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/joe/robot_ws/install/ired_bringup
+[14.905s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/joe/robot_ws/build/ired_bringup': AMENT_PREFIX_PATH=/home/joe/robot_ws/install/ired_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/joe/robot_ws/install/ired_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/joe/robot_ws/install/ired_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/joe/robot_ws/install/ired_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/joe/robot_ws/build/ired_bringup -- -j16 -l16
+[18.419s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/joe/robot_ws/build/csm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/joe/robot_ws/build/csm -- -j16 -l16
+[18.421s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/joe/robot_ws/build/csm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/joe/robot_ws/build/csm
+[18.756s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(csm)
+[18.756s] Level 1:colcon.colcon_core.environment:checking '/home/joe/robot_ws/install/csm' for CMake module files
+[18.757s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/joe/robot_ws/build/csm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/joe/robot_ws/build/csm
+[18.757s] Level 1:colcon.colcon_core.environment:checking '/home/joe/robot_ws/install/csm' for CMake config files
+[18.758s] Level 1:colcon.colcon_core.shell:create_environment_hook('csm', 'cmake_prefix_path')
+[18.758s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joe/robot_ws/install/csm/share/csm/hook/cmake_prefix_path.ps1'
+[18.758s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/joe/robot_ws/install/csm/share/csm/hook/cmake_prefix_path.dsv'
+[18.758s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joe/robot_ws/install/csm/share/csm/hook/cmake_prefix_path.sh'
+[18.759s] Level 1:colcon.colcon_core.environment:checking '/home/joe/robot_ws/install/csm/lib'
+[18.759s] Level 1:colcon.colcon_core.shell:create_environment_hook('csm', 'ld_library_path_lib')
+[18.759s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joe/robot_ws/install/csm/share/csm/hook/ld_library_path_lib.ps1'
+[18.759s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/joe/robot_ws/install/csm/share/csm/hook/ld_library_path_lib.dsv'
+[18.760s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joe/robot_ws/install/csm/share/csm/hook/ld_library_path_lib.sh'
+[18.760s] Level 1:colcon.colcon_core.environment:checking '/home/joe/robot_ws/install/csm/bin'
+[18.760s] Level 1:colcon.colcon_core.environment:checking '/home/joe/robot_ws/install/csm/lib/pkgconfig/csm.pc'
+[18.760s] Level 1:colcon.colcon_core.environment:checking '/home/joe/robot_ws/install/csm/lib/python3.12/site-packages'
+[18.760s] Level 1:colcon.colcon_core.environment:checking '/home/joe/robot_ws/install/csm/bin'
+[18.761s] INFO:colcon.colcon_core.shell:Creating package script '/home/joe/robot_ws/install/csm/share/csm/package.ps1'
+[18.761s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/joe/robot_ws/install/csm/share/csm/package.dsv'
+[18.761s] INFO:colcon.colcon_core.shell:Creating package script '/home/joe/robot_ws/install/csm/share/csm/package.sh'
+[18.762s] INFO:colcon.colcon_core.shell:Creating package script '/home/joe/robot_ws/install/csm/share/csm/package.bash'
+[18.762s] INFO:colcon.colcon_core.shell:Creating package script '/home/joe/robot_ws/install/csm/share/csm/package.zsh'
+[18.762s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/joe/robot_ws/install/csm/share/colcon-core/packages/csm)
+[18.763s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(csm)
+[18.763s] Level 1:colcon.colcon_core.environment:checking '/home/joe/robot_ws/install/csm' for CMake module files
+[18.763s] Level 1:colcon.colcon_core.environment:checking '/home/joe/robot_ws/install/csm' for CMake config files
+[18.764s] Level 1:colcon.colcon_core.shell:create_environment_hook('csm', 'cmake_prefix_path')
+[18.764s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joe/robot_ws/install/csm/share/csm/hook/cmake_prefix_path.ps1'
+[18.765s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/joe/robot_ws/install/csm/share/csm/hook/cmake_prefix_path.dsv'
+[18.765s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joe/robot_ws/install/csm/share/csm/hook/cmake_prefix_path.sh'
+[18.766s] Level 1:colcon.colcon_core.environment:checking '/home/joe/robot_ws/install/csm/lib'
+[18.766s] Level 1:colcon.colcon_core.shell:create_environment_hook('csm', 'ld_library_path_lib')
+[18.766s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joe/robot_ws/install/csm/share/csm/hook/ld_library_path_lib.ps1'
+[18.766s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/joe/robot_ws/install/csm/share/csm/hook/ld_library_path_lib.dsv'
+[18.766s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joe/robot_ws/install/csm/share/csm/hook/ld_library_path_lib.sh'
+[18.767s] Level 1:colcon.colcon_core.environment:checking '/home/joe/robot_ws/install/csm/bin'
+[18.767s] Level 1:colcon.colcon_core.environment:checking '/home/joe/robot_ws/install/csm/lib/pkgconfig/csm.pc'
+[18.767s] Level 1:colcon.colcon_core.environment:checking '/home/joe/robot_ws/install/csm/lib/python3.12/site-packages'
+[18.767s] Level 1:colcon.colcon_core.environment:checking '/home/joe/robot_ws/install/csm/bin'
+[18.767s] INFO:colcon.colcon_core.shell:Creating package script '/home/joe/robot_ws/install/csm/share/csm/package.ps1'
+[18.768s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/joe/robot_ws/install/csm/share/csm/package.dsv'
+[18.768s] INFO:colcon.colcon_core.shell:Creating package script '/home/joe/robot_ws/install/csm/share/csm/package.sh'
+[18.768s] INFO:colcon.colcon_core.shell:Creating package script '/home/joe/robot_ws/install/csm/share/csm/package.bash'
+[18.769s] INFO:colcon.colcon_core.shell:Creating package script '/home/joe/robot_ws/install/csm/share/csm/package.zsh'
+[18.769s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/joe/robot_ws/install/csm/share/colcon-core/packages/csm)
+[18.770s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/joe/robot_ws/src/robot/ros2_laser_scan_matcher' with build type 'ament_cmake'
+[18.770s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/joe/robot_ws/src/robot/ros2_laser_scan_matcher'
+[18.770s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[18.770s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[18.787s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/joe/robot_ws/build/ros2_laser_scan_matcher': AMENT_PREFIX_PATH=/home/joe/robot_ws/install/csm:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/joe/robot_ws/install/csm:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/joe/robot_ws/install/csm/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/joe/robot_ws/src/robot/ros2_laser_scan_matcher -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/joe/robot_ws/install/ros2_laser_scan_matcher
+[20.361s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/joe/robot_ws/build/ros2_laser_scan_matcher' returned '0': AMENT_PREFIX_PATH=/home/joe/robot_ws/install/csm:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/joe/robot_ws/install/csm:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/joe/robot_ws/install/csm/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/joe/robot_ws/src/robot/ros2_laser_scan_matcher -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/joe/robot_ws/install/ros2_laser_scan_matcher
+[20.362s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/joe/robot_ws/build/ros2_laser_scan_matcher': AMENT_PREFIX_PATH=/home/joe/robot_ws/install/csm:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/joe/robot_ws/install/csm:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/joe/robot_ws/install/csm/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/joe/robot_ws/build/ros2_laser_scan_matcher -- -j16 -l16
+[29.786s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/joe/robot_ws/build/ired_bringup' returned '0': AMENT_PREFIX_PATH=/home/joe/robot_ws/install/ired_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/joe/robot_ws/install/ired_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/joe/robot_ws/install/ired_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/joe/robot_ws/install/ired_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/joe/robot_ws/build/ired_bringup -- -j16 -l16
+[29.787s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/joe/robot_ws/build/ired_bringup': AMENT_PREFIX_PATH=/home/joe/robot_ws/install/ired_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/joe/robot_ws/install/ired_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/joe/robot_ws/install/ired_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/joe/robot_ws/install/ired_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/joe/robot_ws/build/ired_bringup
+[30.128s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ired_bringup)
+[30.128s] Level 1:colcon.colcon_core.environment:checking '/home/joe/robot_ws/install/ired_bringup' for CMake module files
+[30.129s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/joe/robot_ws/build/ired_bringup' returned '0': AMENT_PREFIX_PATH=/home/joe/robot_ws/install/ired_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/joe/robot_ws/install/ired_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/joe/robot_ws/install/ired_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/joe/robot_ws/install/ired_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/joe/robot_ws/build/ired_bringup
+[30.129s] Level 1:colcon.colcon_core.environment:checking '/home/joe/robot_ws/install/ired_bringup' for CMake config files
+[30.129s] Level 1:colcon.colcon_core.shell:create_environment_hook('ired_bringup', 'cmake_prefix_path')
+[30.130s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joe/robot_ws/install/ired_bringup/share/ired_bringup/hook/cmake_prefix_path.ps1'
+[30.130s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/joe/robot_ws/install/ired_bringup/share/ired_bringup/hook/cmake_prefix_path.dsv'
+[30.130s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joe/robot_ws/install/ired_bringup/share/ired_bringup/hook/cmake_prefix_path.sh'
+[30.131s] Level 1:colcon.colcon_core.environment:checking '/home/joe/robot_ws/install/ired_bringup/lib'
+[30.131s] Level 1:colcon.colcon_core.environment:checking '/home/joe/robot_ws/install/ired_bringup/bin'
+[30.131s] Level 1:colcon.colcon_core.environment:checking '/home/joe/robot_ws/install/ired_bringup/lib/pkgconfig/ired_bringup.pc'
+[30.131s] Level 1:colcon.colcon_core.environment:checking '/home/joe/robot_ws/install/ired_bringup/lib/python3.12/site-packages'
+[30.131s] Level 1:colcon.colcon_core.environment:checking '/home/joe/robot_ws/install/ired_bringup/bin'
+[30.131s] INFO:colcon.colcon_core.shell:Creating package script '/home/joe/robot_ws/install/ired_bringup/share/ired_bringup/package.ps1'
+[30.132s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/joe/robot_ws/install/ired_bringup/share/ired_bringup/package.dsv'
+[30.132s] INFO:colcon.colcon_core.shell:Creating package script '/home/joe/robot_ws/install/ired_bringup/share/ired_bringup/package.sh'
+[30.132s] INFO:colcon.colcon_core.shell:Creating package script '/home/joe/robot_ws/install/ired_bringup/share/ired_bringup/package.bash'
+[30.133s] INFO:colcon.colcon_core.shell:Creating package script '/home/joe/robot_ws/install/ired_bringup/share/ired_bringup/package.zsh'
+[30.133s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/joe/robot_ws/install/ired_bringup/share/colcon-core/packages/ired_bringup)
+[30.133s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ired_bringup)
+[30.133s] Level 1:colcon.colcon_core.environment:checking '/home/joe/robot_ws/install/ired_bringup' for CMake module files
+[30.134s] Level 1:colcon.colcon_core.environment:checking '/home/joe/robot_ws/install/ired_bringup' for CMake config files
+[30.134s] Level 1:colcon.colcon_core.shell:create_environment_hook('ired_bringup', 'cmake_prefix_path')
+[30.134s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joe/robot_ws/install/ired_bringup/share/ired_bringup/hook/cmake_prefix_path.ps1'
+[30.135s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/joe/robot_ws/install/ired_bringup/share/ired_bringup/hook/cmake_prefix_path.dsv'
+[30.135s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joe/robot_ws/install/ired_bringup/share/ired_bringup/hook/cmake_prefix_path.sh'
+[30.135s] Level 1:colcon.colcon_core.environment:checking '/home/joe/robot_ws/install/ired_bringup/lib'
+[30.135s] Level 1:colcon.colcon_core.environment:checking '/home/joe/robot_ws/install/ired_bringup/bin'
+[30.135s] Level 1:colcon.colcon_core.environment:checking '/home/joe/robot_ws/install/ired_bringup/lib/pkgconfig/ired_bringup.pc'
+[30.136s] Level 1:colcon.colcon_core.environment:checking '/home/joe/robot_ws/install/ired_bringup/lib/python3.12/site-packages'
+[30.136s] Level 1:colcon.colcon_core.environment:checking '/home/joe/robot_ws/install/ired_bringup/bin'
+[30.136s] INFO:colcon.colcon_core.shell:Creating package script '/home/joe/robot_ws/install/ired_bringup/share/ired_bringup/package.ps1'
+[30.136s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/joe/robot_ws/install/ired_bringup/share/ired_bringup/package.dsv'
+[30.137s] INFO:colcon.colcon_core.shell:Creating package script '/home/joe/robot_ws/install/ired_bringup/share/ired_bringup/package.sh'
+[30.137s] INFO:colcon.colcon_core.shell:Creating package script '/home/joe/robot_ws/install/ired_bringup/share/ired_bringup/package.bash'
+[30.137s] INFO:colcon.colcon_core.shell:Creating package script '/home/joe/robot_ws/install/ired_bringup/share/ired_bringup/package.zsh'
+[30.137s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/joe/robot_ws/install/ired_bringup/share/colcon-core/packages/ired_bringup)
+[32.622s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/joe/robot_ws/build/ros2_laser_scan_matcher' returned '0': AMENT_PREFIX_PATH=/home/joe/robot_ws/install/csm:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/joe/robot_ws/install/csm:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/joe/robot_ws/install/csm/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/joe/robot_ws/build/ros2_laser_scan_matcher -- -j16 -l16
+[32.623s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/joe/robot_ws/build/ros2_laser_scan_matcher': AMENT_PREFIX_PATH=/home/joe/robot_ws/install/csm:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/joe/robot_ws/install/csm:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/joe/robot_ws/install/csm/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/joe/robot_ws/build/ros2_laser_scan_matcher
+[32.796s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_laser_scan_matcher)
+[32.796s] Level 1:colcon.colcon_core.environment:checking '/home/joe/robot_ws/install/ros2_laser_scan_matcher' for CMake module files
+[32.797s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/joe/robot_ws/build/ros2_laser_scan_matcher' returned '0': AMENT_PREFIX_PATH=/home/joe/robot_ws/install/csm:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/joe/robot_ws/install/csm:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/joe/robot_ws/install/csm/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/joe/robot_ws/build/ros2_laser_scan_matcher
+[32.797s] Level 1:colcon.colcon_core.environment:checking '/home/joe/robot_ws/install/ros2_laser_scan_matcher' for CMake config files
+[32.797s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_laser_scan_matcher', 'cmake_prefix_path')
+[32.798s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joe/robot_ws/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/hook/cmake_prefix_path.ps1'
+[32.798s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/joe/robot_ws/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/hook/cmake_prefix_path.dsv'
+[32.798s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joe/robot_ws/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/hook/cmake_prefix_path.sh'
+[32.799s] Level 1:colcon.colcon_core.environment:checking '/home/joe/robot_ws/install/ros2_laser_scan_matcher/lib'
+[32.799s] Level 1:colcon.colcon_core.environment:checking '/home/joe/robot_ws/install/ros2_laser_scan_matcher/bin'
+[32.799s] Level 1:colcon.colcon_core.environment:checking '/home/joe/robot_ws/install/ros2_laser_scan_matcher/lib/pkgconfig/ros2_laser_scan_matcher.pc'
+[32.799s] Level 1:colcon.colcon_core.environment:checking '/home/joe/robot_ws/install/ros2_laser_scan_matcher/lib/python3.12/site-packages'
+[32.799s] Level 1:colcon.colcon_core.environment:checking '/home/joe/robot_ws/install/ros2_laser_scan_matcher/bin'
+[32.799s] INFO:colcon.colcon_core.shell:Creating package script '/home/joe/robot_ws/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/package.ps1'
+[32.800s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/joe/robot_ws/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/package.dsv'
+[32.800s] INFO:colcon.colcon_core.shell:Creating package script '/home/joe/robot_ws/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/package.sh'
+[32.800s] INFO:colcon.colcon_core.shell:Creating package script '/home/joe/robot_ws/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/package.bash'
+[32.801s] INFO:colcon.colcon_core.shell:Creating package script '/home/joe/robot_ws/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/package.zsh'
+[32.801s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/joe/robot_ws/install/ros2_laser_scan_matcher/share/colcon-core/packages/ros2_laser_scan_matcher)
+[32.801s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_laser_scan_matcher)
+[32.801s] Level 1:colcon.colcon_core.environment:checking '/home/joe/robot_ws/install/ros2_laser_scan_matcher' for CMake module files
+[32.802s] Level 1:colcon.colcon_core.environment:checking '/home/joe/robot_ws/install/ros2_laser_scan_matcher' for CMake config files
+[32.802s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_laser_scan_matcher', 'cmake_prefix_path')
+[32.802s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joe/robot_ws/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/hook/cmake_prefix_path.ps1'
+[32.802s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/joe/robot_ws/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/hook/cmake_prefix_path.dsv'
+[32.803s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joe/robot_ws/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/hook/cmake_prefix_path.sh'
+[32.803s] Level 1:colcon.colcon_core.environment:checking '/home/joe/robot_ws/install/ros2_laser_scan_matcher/lib'
+[32.803s] Level 1:colcon.colcon_core.environment:checking '/home/joe/robot_ws/install/ros2_laser_scan_matcher/bin'
+[32.803s] Level 1:colcon.colcon_core.environment:checking '/home/joe/robot_ws/install/ros2_laser_scan_matcher/lib/pkgconfig/ros2_laser_scan_matcher.pc'
+[32.803s] Level 1:colcon.colcon_core.environment:checking '/home/joe/robot_ws/install/ros2_laser_scan_matcher/lib/python3.12/site-packages'
+[32.804s] Level 1:colcon.colcon_core.environment:checking '/home/joe/robot_ws/install/ros2_laser_scan_matcher/bin'
+[32.804s] INFO:colcon.colcon_core.shell:Creating package script '/home/joe/robot_ws/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/package.ps1'
+[32.804s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/joe/robot_ws/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/package.dsv'
+[32.804s] INFO:colcon.colcon_core.shell:Creating package script '/home/joe/robot_ws/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/package.sh'
+[32.805s] INFO:colcon.colcon_core.shell:Creating package script '/home/joe/robot_ws/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/package.bash'
+[32.805s] INFO:colcon.colcon_core.shell:Creating package script '/home/joe/robot_ws/install/ros2_laser_scan_matcher/share/ros2_laser_scan_matcher/package.zsh'
+[32.805s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/joe/robot_ws/install/ros2_laser_scan_matcher/share/colcon-core/packages/ros2_laser_scan_matcher)
+[32.806s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[32.806s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[32.806s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[32.806s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[32.813s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[32.813s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[32.813s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[32.825s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[32.825s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/joe/robot_ws/install/local_setup.ps1'
+[32.827s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/joe/robot_ws/install/_local_setup_util_ps1.py'
+[32.827s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/joe/robot_ws/install/setup.ps1'
+[32.828s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/joe/robot_ws/install/local_setup.sh'
+[32.829s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/joe/robot_ws/install/_local_setup_util_sh.py'
+[32.829s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/joe/robot_ws/install/setup.sh'
+[32.830s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/joe/robot_ws/install/local_setup.bash'
+[32.830s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/joe/robot_ws/install/setup.bash'
+[32.830s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/joe/robot_ws/install/local_setup.zsh'
+[32.845s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/joe/robot_ws/install/setup.zsh'

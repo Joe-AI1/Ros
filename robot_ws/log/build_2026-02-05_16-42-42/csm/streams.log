@@ -1,0 +1,90 @@
+[0.035s] Invoking command in '/home/joe/robot_ws/build/csm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/joe/robot_ws/src/robot/cms -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/joe/robot_ws/install/csm
+[0.430s] -- The C compiler identification is GNU 13.3.0
+[0.655s] -- The CXX compiler identification is GNU 13.3.0
+[0.685s] -- Detecting C compiler ABI info
+[0.811s] -- Detecting C compiler ABI info - done
+[0.821s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.822s] -- Detecting C compile features
+[0.822s] -- Detecting C compile features - done
+[0.831s] -- Detecting CXX compiler ABI info
+[0.931s] -- Detecting CXX compiler ABI info - done
+[0.940s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.940s] -- Detecting CXX compile features
+[0.940s] -- Detecting CXX compile features - done
+[0.948s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.081s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.159s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.207s] -- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.265s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.280s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.303s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.326s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.426s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.430s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.531s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.551s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.574s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.754s] -- Configuring done (1.6s)
+[1.764s] -- Generating done (0.0s)
+[1.766s] -- Build files have been written to: /home/joe/robot_ws/build/csm
+[1.777s] Invoked command in '/home/joe/robot_ws/build/csm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/joe/robot_ws/src/robot/cms -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/joe/robot_ws/install/csm
+[1.778s] Invoking command in '/home/joe/robot_ws/build/csm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/joe/robot_ws/build/csm -- -j16 -l16
+[1.831s] [ 16%] [32mBuilding CXX object CMakeFiles/csm.dir/src/csm/logging.cpp.o[0m
+[1.831s] [ 20%] [32mBuilding CXX object CMakeFiles/csm.dir/src/csm/orientation.cpp.o[0m
+[1.832s] [ 20%] [32mBuilding CXX object CMakeFiles/csm.dir/src/egsl/egsl_conversions.cpp.o[0m
+[1.832s] [ 25%] [32mBuilding CXX object CMakeFiles/csm.dir/src/egsl/egsl.cpp.o[0m
+[1.832s] [ 33%] [32mBuilding CXX object CMakeFiles/csm.dir/src/csm/sm_options.cpp.o[0m
+[1.832s] [ 37%] [32mBuilding CXX object CMakeFiles/csm.dir/src/egsl/egsl_ops.cpp.o[0m
+[1.833s] [ 16%] [32mBuilding CXX object CMakeFiles/csm.dir/src/csm/utils.cpp.o[0m
+[1.833s] [ 45%] [32mBuilding CXX object CMakeFiles/csm.dir/src/csm/laser_data.cpp.o[0m
+[1.833s] [ 45%] [32mBuilding CXX object CMakeFiles/csm.dir/src/csm/clustering.cpp.o[0m
+[1.834s] [ 33%] [32mBuilding CXX object CMakeFiles/csm.dir/src/egsl/egsl_misc.cpp.o[0m
+[1.834s] [ 50%] [32mBuilding CXX object CMakeFiles/csm.dir/src/gpc/gpc.cpp.o[0m
+[1.834s] [ 16%] [32mBuilding CXX object CMakeFiles/csm.dir/src/csm/math_utils_gsl.cpp.o[0m
+[1.834s] [ 54%] [32mBuilding CXX object CMakeFiles/csm.dir/src/csm/math_utils.cpp.o[0m
+[1.838s] [ 62%] [32mBuilding CXX object CMakeFiles/csm.dir/src/icp/icp.cpp.o[0m
+[1.838s] [ 62%] [32mBuilding CXX object CMakeFiles/csm.dir/src/gpc/gpc_utils.cpp.o[0m
+[1.839s] [ 66%] [32mBuilding CXX object CMakeFiles/csm.dir/src/icp/icp_corr_dumb.cpp.o[0m
+[4.795s] [ 70%] [32mBuilding CXX object CMakeFiles/csm.dir/src/icp/icp_corr_tricks.cpp.o[0m
+[5.014s] [ 75%] [32mBuilding CXX object CMakeFiles/csm.dir/src/icp/icp_covariance.cpp.o[0m
+[5.437s] [ 79%] [32mBuilding CXX object CMakeFiles/csm.dir/src/icp/icp_debug.cpp.o[0m
+[5.468s] [ 83%] [32mBuilding CXX object CMakeFiles/csm.dir/src/icp/icp_loop.cpp.o[0m
+[5.543s] [ 87%] [32mBuilding CXX object CMakeFiles/csm.dir/src/icp/icp_outliers.cpp.o[0m
+[5.619s] [ 91%] [32mBuilding CXX object CMakeFiles/csm.dir/src/options/options.cpp.o[0m
+[5.697s] [ 95%] [32mBuilding CXX object CMakeFiles/csm.dir/src/options/options_interface.cpp.o[0m
+[17.727s] [100%] [32m[1mLinking CXX shared library libcsm.so[0m
+[18.075s] [100%] Built target csm
+[18.089s] Invoked command in '/home/joe/robot_ws/build/csm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/joe/robot_ws/build/csm -- -j16 -l16
+[18.091s] Invoking command in '/home/joe/robot_ws/build/csm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/joe/robot_ws/build/csm
+[18.099s] -- Install configuration: ""
+[18.106s] -- Execute custom install script
+[18.107s] -- Symlinking: /home/joe/robot_ws/install/csm/lib/libcsm.so
+[18.117s] -- Symlinking: /home/joe/robot_ws/install/csm/include/..//include/csm/algos.h
+[18.128s] -- Symlinking: /home/joe/robot_ws/install/csm/include/..//include/csm/csm.h
+[18.139s] -- Symlinking: /home/joe/robot_ws/install/csm/include/..//include/csm/laser_data.h
+[18.150s] -- Symlinking: /home/joe/robot_ws/install/csm/include/..//include/csm/laser_data_inline.h
+[18.161s] -- Symlinking: /home/joe/robot_ws/install/csm/include/..//include/csm/restrict.h
+[18.172s] -- Symlinking: /home/joe/robot_ws/install/csm/include/..//include/gsl_eigen/gsl_eigen.h
+[18.183s] -- Symlinking: /home/joe/robot_ws/install/csm/share/csm/resource/csm
+[18.194s] -- Symlinking: /home/joe/robot_ws/install/csm/include/../gsl_eigen/gsl_eigen.h
+[18.205s] -- Symlinking: /home/joe/robot_ws/install/csm/share/csm/environment/library_path.sh
+[18.216s] -- Symlinking: /home/joe/robot_ws/install/csm/share/csm/environment/library_path.dsv
+[18.228s] -- Symlinking: /home/joe/robot_ws/install/csm/share/ament_index/resource_index/package_run_dependencies/csm
+[18.240s] -- Symlinking: /home/joe/robot_ws/install/csm/share/ament_index/resource_index/parent_prefix_path/csm
+[18.250s] -- Symlinking: /home/joe/robot_ws/install/csm/share/csm/environment/ament_prefix_path.sh
+[18.261s] -- Symlinking: /home/joe/robot_ws/install/csm/share/csm/environment/ament_prefix_path.dsv
+[18.272s] -- Symlinking: /home/joe/robot_ws/install/csm/share/csm/environment/path.sh
+[18.284s] -- Symlinking: /home/joe/robot_ws/install/csm/share/csm/environment/path.dsv
+[18.296s] -- Symlinking: /home/joe/robot_ws/install/csm/share/csm/local_setup.bash
+[18.308s] -- Symlinking: /home/joe/robot_ws/install/csm/share/csm/local_setup.sh
+[18.318s] -- Symlinking: /home/joe/robot_ws/install/csm/share/csm/local_setup.zsh
+[18.329s] -- Symlinking: /home/joe/robot_ws/install/csm/share/csm/local_setup.dsv
+[18.340s] -- Symlinking: /home/joe/robot_ws/install/csm/share/csm/package.dsv
+[18.351s] -- Symlinking: /home/joe/robot_ws/install/csm/share/ament_index/resource_index/packages/csm
+[18.361s] -- Symlinking: /home/joe/robot_ws/install/csm/share/csm/cmake/ament_cmake_export_dependencies-extras.cmake
+[18.372s] -- Symlinking: /home/joe/robot_ws/install/csm/share/csm/cmake/ament_cmake_export_include_directories-extras.cmake
+[18.383s] -- Symlinking: /home/joe/robot_ws/install/csm/share/csm/cmake/ament_cmake_export_libraries-extras.cmake
+[18.393s] -- Symlinking: /home/joe/robot_ws/install/csm/share/csm/cmake/csmConfig.cmake
+[18.403s] -- Symlinking: /home/joe/robot_ws/install/csm/share/csm/cmake/csmConfig-version.cmake
+[18.413s] -- Symlinking: /home/joe/robot_ws/install/csm/share/csm/package.xml
+[18.426s] Invoked command in '/home/joe/robot_ws/build/csm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/joe/robot_ws/build/csm

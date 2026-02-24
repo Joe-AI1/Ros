@@ -1,0 +1,72 @@
+[0.033s] Invoking command in '/home/joe/robot_ws/build/ired_bringup': AMENT_PREFIX_PATH=/home/joe/robot_ws/install/ired_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/joe/robot_ws/install/ired_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/joe/robot_ws/install/ired_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/joe/robot_ws/install/ired_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/joe/robot_ws/src/robot/ired_bringup -DCMAKE_INSTALL_PREFIX=/home/joe/robot_ws/install/ired_bringup
+[0.067s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.415s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.438s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.516s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.535s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.559s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.596s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.698s] -- Found ired_msgs: 2.0.1 (/home/joe/robot_ws/install/ired_msgs/share/ired_msgs/cmake)
+[0.784s] -- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[0.840s] -- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.925s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.929s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.071s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.224s] -- Found rclpy: 7.1.9 (/opt/ros/jazzy/share/rclpy/cmake)
+[1.225s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[1.279s] -- Found std_srvs: 5.3.6 (/opt/ros/jazzy/share/std_srvs/cmake)
+[1.318s] -- Found tf2: 0.36.19 (/opt/ros/jazzy/share/tf2/cmake)
+[1.327s] -- Found tf2_msgs: 0.36.19 (/opt/ros/jazzy/share/tf2_msgs/cmake)
+[1.633s] -- Configuring done (1.6s)
+[1.706s] -- Generating done (0.1s)
+[1.726s] -- Build files have been written to: /home/joe/robot_ws/build/ired_bringup
+[1.743s] Invoked command in '/home/joe/robot_ws/build/ired_bringup' returned '0': AMENT_PREFIX_PATH=/home/joe/robot_ws/install/ired_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/joe/robot_ws/install/ired_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/joe/robot_ws/install/ired_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/joe/robot_ws/install/ired_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/joe/robot_ws/src/robot/ired_bringup -DCMAKE_INSTALL_PREFIX=/home/joe/robot_ws/install/ired_bringup
+[1.745s] Invoking command in '/home/joe/robot_ws/build/ired_bringup': AMENT_PREFIX_PATH=/home/joe/robot_ws/install/ired_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/joe/robot_ws/install/ired_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/joe/robot_ws/install/ired_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/joe/robot_ws/install/ired_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/joe/robot_ws/build/ired_bringup -- -j16 -l16
+[1.924s] [ 18%] [32mBuilding CXX object CMakeFiles/forward_kinematics_node.dir/src/forward_kinematics.cpp.o[0m
+[1.924s] [ 18%] [32mBuilding CXX object CMakeFiles/inverse_kinematics_node.dir/src/inverse_kinematics.cpp.o[0m
+[1.928s] [ 45%] Built target iredcr_modbus_node
+[1.930s] [ 63%] Built target imu_node
+[1.930s] [ 81%] Built target odom_node
+[9.337s] [ 90%] [32m[1mLinking CXX executable inverse_kinematics_node[0m
+[9.346s] [100%] [32m[1mLinking CXX executable forward_kinematics_node[0m
+[9.745s] [100%] Built target inverse_kinematics_node
+[9.746s] [100%] Built target forward_kinematics_node
+[9.759s] Invoked command in '/home/joe/robot_ws/build/ired_bringup' returned '0': AMENT_PREFIX_PATH=/home/joe/robot_ws/install/ired_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/joe/robot_ws/install/ired_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/joe/robot_ws/install/ired_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/joe/robot_ws/install/ired_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/joe/robot_ws/build/ired_bringup -- -j16 -l16
+[9.770s] Invoking command in '/home/joe/robot_ws/build/ired_bringup': AMENT_PREFIX_PATH=/home/joe/robot_ws/install/ired_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/joe/robot_ws/install/ired_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/joe/robot_ws/install/ired_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/joe/robot_ws/install/ired_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/joe/robot_ws/build/ired_bringup
+[9.777s] -- Install configuration: ""
+[9.784s] -- Execute custom install script
+[9.785s] -- Up-to-date symlink: /home/joe/robot_ws/install/ired_bringup/lib/ired_bringup/forward_kinematics_node
+[9.785s] -- Up-to-date symlink: /home/joe/robot_ws/install/ired_bringup/lib/ired_bringup/inverse_kinematics_node
+[9.786s] -- Up-to-date symlink: /home/joe/robot_ws/install/ired_bringup/lib/ired_bringup/imu_node
+[9.786s] -- Up-to-date symlink: /home/joe/robot_ws/install/ired_bringup/lib/ired_bringup/iredcr_modbus_node
+[9.786s] -- Up-to-date symlink: /home/joe/robot_ws/install/ired_bringup/lib/ired_bringup/odom_node
+[9.786s] -- Up-to-date symlink: /home/joe/robot_ws/install/ired_bringup/share/ired_bringup/launch/bringup.launch.py
+[9.786s] -- Up-to-date symlink: /home/joe/robot_ws/install/ired_bringup/share/ired_bringup/param/ired.yaml
+[9.786s] -- Up-to-date symlink: /home/joe/robot_ws/install/ired_bringup/share/ired_bringup/param/laser_config.yaml
+[9.786s] -- Up-to-date symlink: /home/joe/robot_ws/install/ired_bringup/share/ired_bringup/param/laser_scan_matcher.yaml
+[9.786s] -- Up-to-date symlink: /home/joe/robot_ws/install/ired_bringup/share/ired_bringup/urdf/ired.urdf.xacro
+[9.787s] -- Up-to-date symlink: /home/joe/robot_ws/install/ired_bringup/include//ired_bringup/forward_kinematics.hpp
+[9.787s] -- Up-to-date symlink: /home/joe/robot_ws/install/ired_bringup/include//ired_bringup/imu.hpp
+[9.787s] -- Up-to-date symlink: /home/joe/robot_ws/install/ired_bringup/include//ired_bringup/inverse_kinematics.hpp
+[9.787s] -- Up-to-date symlink: /home/joe/robot_ws/install/ired_bringup/include//ired_bringup/ired_controller.hpp
+[9.787s] -- Up-to-date symlink: /home/joe/robot_ws/install/ired_bringup/include//ired_bringup/ired_controller_define.hpp
+[9.787s] -- Up-to-date symlink: /home/joe/robot_ws/install/ired_bringup/include//ired_bringup/odom.hpp
+[9.787s] -- Up-to-date symlink: /home/joe/robot_ws/install/ired_bringup/include//modbus_rtu.hpp
+[9.787s] -- Up-to-date symlink: /home/joe/robot_ws/install/ired_bringup/share/ament_index/resource_index/package_run_dependencies/ired_bringup
+[9.787s] -- Up-to-date symlink: /home/joe/robot_ws/install/ired_bringup/share/ament_index/resource_index/parent_prefix_path/ired_bringup
+[9.788s] -- Up-to-date symlink: /home/joe/robot_ws/install/ired_bringup/share/ired_bringup/environment/ament_prefix_path.sh
+[9.788s] -- Up-to-date symlink: /home/joe/robot_ws/install/ired_bringup/share/ired_bringup/environment/ament_prefix_path.dsv
+[9.788s] -- Up-to-date symlink: /home/joe/robot_ws/install/ired_bringup/share/ired_bringup/environment/path.sh
+[9.788s] -- Up-to-date symlink: /home/joe/robot_ws/install/ired_bringup/share/ired_bringup/environment/path.dsv
+[9.788s] -- Up-to-date symlink: /home/joe/robot_ws/install/ired_bringup/share/ired_bringup/local_setup.bash
+[9.788s] -- Up-to-date symlink: /home/joe/robot_ws/install/ired_bringup/share/ired_bringup/local_setup.sh
+[9.788s] -- Up-to-date symlink: /home/joe/robot_ws/install/ired_bringup/share/ired_bringup/local_setup.zsh
+[9.788s] -- Up-to-date symlink: /home/joe/robot_ws/install/ired_bringup/share/ired_bringup/local_setup.dsv
+[9.788s] -- Symlinking: /home/joe/robot_ws/install/ired_bringup/share/ired_bringup/package.dsv
+[9.799s] -- Up-to-date symlink: /home/joe/robot_ws/install/ired_bringup/share/ament_index/resource_index/packages/ired_bringup
+[9.800s] -- Up-to-date symlink: /home/joe/robot_ws/install/ired_bringup/share/ired_bringup/cmake/ament_cmake_export_include_directories-extras.cmake
+[9.800s] -- Up-to-date symlink: /home/joe/robot_ws/install/ired_bringup/share/ired_bringup/cmake/ament_cmake_export_dependencies-extras.cmake
+[9.800s] -- Up-to-date symlink: /home/joe/robot_ws/install/ired_bringup/share/ired_bringup/cmake/ired_bringupConfig.cmake
+[9.800s] -- Up-to-date symlink: /home/joe/robot_ws/install/ired_bringup/share/ired_bringup/cmake/ired_bringupConfig-version.cmake
+[9.800s] -- Up-to-date symlink: /home/joe/robot_ws/install/ired_bringup/share/ired_bringup/package.xml
+[9.802s] Invoked command in '/home/joe/robot_ws/build/ired_bringup' returned '0': AMENT_PREFIX_PATH=/home/joe/robot_ws/install/ired_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/joe/robot_ws/install/ired_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/joe/robot_ws/install/ired_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/joe/robot_ws/install/ired_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/joe/robot_ws/build/ired_bringup

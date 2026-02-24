@@ -1,0 +1,1 @@
+/home/joe/robot_ws/build/ired_navigation/ament_cmake_environment_hooks/local_setup.zsh

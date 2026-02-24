@@ -1,0 +1,115 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-a5dfd71e8a32a54b1aa4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ired_bringup",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "forward_kinematics_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-forward_kinematics_node-5945113f0362e31f027f.json",
+					"name" : "forward_kinematics_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "imu_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-imu_node-e99e7180828ae5cb0f47.json",
+					"name" : "imu_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "inverse_kinematics_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-inverse_kinematics_node-72de6fd220c35020419a.json",
+					"name" : "inverse_kinematics_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ired_bringup_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ired_bringup_uninstall-ccb719f0bf879d4fe583.json",
+					"name" : "ired_bringup_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "iredcr_modbus_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-iredcr_modbus_node-be0604822b8f18a1a739.json",
+					"name" : "iredcr_modbus_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "odom_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-odom_node-6ddc53271393f1e899ac.json",
+					"name" : "odom_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-5efe2d8a0e3405595b84.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/joe/robot_ws/build/ired_bringup",
+		"source" : "/home/joe/robot_ws/src/robot/ired_bringup"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

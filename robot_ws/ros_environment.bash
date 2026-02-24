@@ -1,0 +1,9 @@
+source ~/robot_ws/install/local_setup.bash
+source ~/robot_ws/install/local_setup.bash
+source ~/robot_ws/install/local_setup.bash
+source ~/robot_ws/install/local_setup.bash
+source ~/robot_ws/install/local_setup.bash
+source ~/robot_ws/install/local_setup.bash
+source ~/robot_ws/install/local_setup.bash
+source ~/robot_ws/install/local_setup.bash
+source ~/robot_ws/install/local_setup.bash

@@ -1,0 +1,14 @@
+/home/joe/robot_ws/build/ired_bringup/CMakeFiles/uninstall.dir
+/home/joe/robot_ws/build/ired_bringup/CMakeFiles/ired_bringup_uninstall.dir
+/home/joe/robot_ws/build/ired_bringup/CMakeFiles/forward_kinematics_node.dir
+/home/joe/robot_ws/build/ired_bringup/CMakeFiles/inverse_kinematics_node.dir
+/home/joe/robot_ws/build/ired_bringup/CMakeFiles/imu_node.dir
+/home/joe/robot_ws/build/ired_bringup/CMakeFiles/iredcr_modbus_node.dir
+/home/joe/robot_ws/build/ired_bringup/CMakeFiles/odom_node.dir
+/home/joe/robot_ws/build/ired_bringup/CMakeFiles/test.dir
+/home/joe/robot_ws/build/ired_bringup/CMakeFiles/edit_cache.dir
+/home/joe/robot_ws/build/ired_bringup/CMakeFiles/rebuild_cache.dir
+/home/joe/robot_ws/build/ired_bringup/CMakeFiles/list_install_components.dir
+/home/joe/robot_ws/build/ired_bringup/CMakeFiles/install.dir
+/home/joe/robot_ws/build/ired_bringup/CMakeFiles/install/local.dir
+/home/joe/robot_ws/build/ired_bringup/CMakeFiles/install/strip.dir

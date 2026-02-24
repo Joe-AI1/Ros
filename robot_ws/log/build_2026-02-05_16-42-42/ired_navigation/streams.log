@@ -1,0 +1,50 @@
+[0.035s] Invoking command in '/home/joe/robot_ws/build/ired_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/joe/robot_ws/src/robot/ired_navigation -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/joe/robot_ws/install/ired_navigation
+[0.417s] -- The C compiler identification is GNU 13.3.0
+[0.643s] -- The CXX compiler identification is GNU 13.3.0
+[0.673s] -- Detecting C compiler ABI info
+[0.800s] -- Detecting C compiler ABI info - done
+[0.810s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.810s] -- Detecting C compile features
+[0.811s] -- Detecting C compile features - done
+[0.819s] -- Detecting CXX compiler ABI info
+[0.915s] -- Detecting CXX compiler ABI info - done
+[0.924s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.924s] -- Detecting CXX compile features
+[0.925s] -- Detecting CXX compile features - done
+[0.932s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.068s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.147s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.290s] -- Configuring done (1.2s)
+[1.294s] -- Generating done (0.0s)
+[1.296s] -- Build files have been written to: /home/joe/robot_ws/build/ired_navigation
+[1.303s] Invoked command in '/home/joe/robot_ws/build/ired_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/joe/robot_ws/src/robot/ired_navigation -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/joe/robot_ws/install/ired_navigation
+[1.304s] Invoking command in '/home/joe/robot_ws/build/ired_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/joe/robot_ws/build/ired_navigation -- -j16 -l16
+[1.353s] Invoked command in '/home/joe/robot_ws/build/ired_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/joe/robot_ws/build/ired_navigation -- -j16 -l16
+[1.354s] Invoking command in '/home/joe/robot_ws/build/ired_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/joe/robot_ws/build/ired_navigation
+[1.360s] -- Install configuration: ""
+[1.361s] -- Execute custom install script
+[1.361s] -- Symlinking: /home/joe/robot_ws/install/ired_navigation/share/ired_navigation/config/ired_rplidar_2d.lua
+[1.370s] -- Symlinking: /home/joe/robot_ws/install/ired_navigation/share/ired_navigation/launch/navigation.launch.py
+[1.378s] -- Symlinking: /home/joe/robot_ws/install/ired_navigation/share/ired_navigation/launch/occupancy_grid.launch.py
+[1.388s] -- Symlinking: /home/joe/robot_ws/install/ired_navigation/share/ired_navigation/launch/save_map.launch.py
+[1.397s] -- Symlinking: /home/joe/robot_ws/install/ired_navigation/share/ired_navigation/launch/slam.launch.py
+[1.405s] -- Symlinking: /home/joe/robot_ws/install/ired_navigation/share/ired_navigation/maps/1
+[1.414s] -- Symlinking: /home/joe/robot_ws/install/ired_navigation/share/ired_navigation/maps/map.pgm
+[1.423s] -- Symlinking: /home/joe/robot_ws/install/ired_navigation/share/ired_navigation/maps/map.yaml
+[1.432s] -- Symlinking: /home/joe/robot_ws/install/ired_navigation/share/ired_navigation/param/navigation.yaml
+[1.441s] -- Symlinking: /home/joe/robot_ws/install/ired_navigation/share/ament_index/resource_index/package_run_dependencies/ired_navigation
+[1.450s] -- Symlinking: /home/joe/robot_ws/install/ired_navigation/share/ament_index/resource_index/parent_prefix_path/ired_navigation
+[1.459s] -- Symlinking: /home/joe/robot_ws/install/ired_navigation/share/ired_navigation/environment/ament_prefix_path.sh
+[1.468s] -- Symlinking: /home/joe/robot_ws/install/ired_navigation/share/ired_navigation/environment/ament_prefix_path.dsv
+[1.476s] -- Symlinking: /home/joe/robot_ws/install/ired_navigation/share/ired_navigation/environment/path.sh
+[1.485s] -- Symlinking: /home/joe/robot_ws/install/ired_navigation/share/ired_navigation/environment/path.dsv
+[1.494s] -- Symlinking: /home/joe/robot_ws/install/ired_navigation/share/ired_navigation/local_setup.bash
+[1.503s] -- Symlinking: /home/joe/robot_ws/install/ired_navigation/share/ired_navigation/local_setup.sh
+[1.512s] -- Symlinking: /home/joe/robot_ws/install/ired_navigation/share/ired_navigation/local_setup.zsh
+[1.520s] -- Symlinking: /home/joe/robot_ws/install/ired_navigation/share/ired_navigation/local_setup.dsv
+[1.529s] -- Symlinking: /home/joe/robot_ws/install/ired_navigation/share/ired_navigation/package.dsv
+[1.538s] -- Symlinking: /home/joe/robot_ws/install/ired_navigation/share/ament_index/resource_index/packages/ired_navigation
+[1.548s] -- Symlinking: /home/joe/robot_ws/install/ired_navigation/share/ired_navigation/cmake/ired_navigationConfig.cmake
+[1.559s] -- Symlinking: /home/joe/robot_ws/install/ired_navigation/share/ired_navigation/cmake/ired_navigationConfig-version.cmake
+[1.571s] -- Symlinking: /home/joe/robot_ws/install/ired_navigation/share/ired_navigation/package.xml
+[1.583s] Invoked command in '/home/joe/robot_ws/build/ired_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/joe/robot_ws/build/ired_navigation

@@ -1,0 +1,16 @@
+{
+  "package_name": "ired_msgs",
+  "output_dir": "/home/joe/robot_ws/build/ired_msgs/rosidl_generator_type_description/ired_msgs",
+  "idl_tuples": [
+    "/home/joe/robot_ws/build/ired_msgs/rosidl_adapter/ired_msgs:msg/IMUData.idl",
+    "/home/joe/robot_ws/build/ired_msgs/rosidl_adapter/ired_msgs:msg/MotorControl.idl",
+    "/home/joe/robot_ws/build/ired_msgs/rosidl_adapter/ired_msgs:msg/MotorData.idl",
+    "/home/joe/robot_ws/build/ired_msgs/rosidl_adapter/ired_msgs:msg/MotorSpeed.idl",
+    "/home/joe/robot_ws/build/ired_msgs/rosidl_adapter/ired_msgs:srv/PIDTuning.idl"
+  ],
+  "include_paths": [
+    "std_msgs:/opt/ros/jazzy/share/std_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces",
+    "service_msgs:/opt/ros/jazzy/share/service_msgs"
+  ]
+}

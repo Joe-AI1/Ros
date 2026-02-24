@@ -1,0 +1,149 @@
+[0.000000] (-) TimerEvent: {}
+[0.000509] (-) JobUnselected: {'identifier': 'csm'}
+[0.000572] (-) JobUnselected: {'identifier': 'ired_msgs'}
+[0.000613] (-) JobUnselected: {'identifier': 'ired_navigation'}
+[0.000638] (-) JobUnselected: {'identifier': 'ired_rviz'}
+[0.000661] (-) JobUnselected: {'identifier': 'ired_teleop'}
+[0.000684] (-) JobUnselected: {'identifier': 'ros2_laser_scan_matcher'}
+[0.000705] (-) JobUnselected: {'identifier': 'rplidar_ros'}
+[0.000751] (ired_bringup) JobQueued: {'identifier': 'ired_bringup', 'dependencies': OrderedDict({'ired_msgs': '/home/joe/robot_ws/install/ired_msgs'})}
+[0.000804] (ired_bringup) JobStarted: {'identifier': 'ired_bringup'}
+[0.024154] (ired_bringup) JobProgress: {'identifier': 'ired_bringup', 'progress': 'cmake'}
+[0.025970] (ired_bringup) JobProgress: {'identifier': 'ired_bringup', 'progress': 'build'}
+[0.026060] (ired_bringup) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/joe/robot_ws/build/ired_bringup', '--', '-j16', '-l16'], 'cwd': '/home/joe/robot_ws/build/ired_bringup', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'joe', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/joe/robot_ws/install/ired_msgs/lib:/home/joe/robot_ws/install/csm/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/joe', 'OLDPWD': '/home/joe', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2705', 'SYSTEMD_EXEC_PID': '3341', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '4275', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/joe/robot_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'joe', 'JOURNAL_STREAM': '9:29854', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'joe', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/Joe-UbuntuSdcard:@/tmp/.ICE-unix/3032,unix/Joe-UbuntuSdcard:/tmp/.ICE-unix/3032', 'INVOCATION_ID': '1e4b7b93bbe84ea1b50f0d116271abaf', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.JB5IK3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/joe/robot_ws/install/rplidar_ros:/home/joe/robot_ws/install/ros2_laser_scan_matcher:/home/joe/robot_ws/install/ired_teleop:/home/joe/robot_ws/install/ired_rviz:/home/joe/robot_ws/install/ired_navigation:/home/joe/robot_ws/install/ired_bringup:/home/joe/robot_ws/install/ired_msgs:/home/joe/robot_ws/install/csm:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:6a028e7f-1add-4ac0-9b7b-3c14c83390e1', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/joe/robot_ws/build/ired_bringup', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/joe/robot_ws/install/ired_msgs/lib/python3.12/site-packages:/home/joe/robot_ws/build/ired_teleop:/home/joe/robot_ws/install/ired_teleop/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/joe/robot_ws/install/ired_msgs:/home/joe/robot_ws/install/rplidar_ros:/home/joe/robot_ws/install/ros2_laser_scan_matcher:/home/joe/robot_ws/install/ired_rviz:/home/joe/robot_ws/install/ired_navigation:/home/joe/robot_ws/install/ired_bringup:/home/joe/robot_ws/install/csm:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/joe/robot_ws/install/ired_teleop:/opt/ros/jazzy'}), 'shell': False}
+[0.098834] (-) TimerEvent: {}
+[0.156600] (ired_bringup) StdoutLine: {'line': b'[ 72%] Built target imu_node\n'}
+[0.157673] (ired_bringup) StdoutLine: {'line': b'[ 72%] Built target forward_kinematics_node\n'}
+[0.157907] (ired_bringup) StdoutLine: {'line': b'[ 72%] Built target inverse_kinematics_node\n'}
+[0.158043] (ired_bringup) StdoutLine: {'line': b'[ 72%] Built target odom_node\n'}
+[0.180113] (ired_bringup) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding CXX object CMakeFiles/iredcr_modbus_node.dir/src/ired_controller.cpp.o\x1b[0m\n'}
+[0.199032] (-) TimerEvent: {}
+[0.299533] (-) TimerEvent: {}
+[0.400041] (-) TimerEvent: {}
+[0.500597] (-) TimerEvent: {}
+[0.601143] (-) TimerEvent: {}
+[0.701740] (-) TimerEvent: {}
+[0.802312] (-) TimerEvent: {}
+[0.903007] (-) TimerEvent: {}
+[1.003591] (-) TimerEvent: {}
+[1.104143] (-) TimerEvent: {}
+[1.204734] (-) TimerEvent: {}
+[1.305253] (-) TimerEvent: {}
+[1.405630] (-) TimerEvent: {}
+[1.505986] (-) TimerEvent: {}
+[1.606370] (-) TimerEvent: {}
+[1.706720] (-) TimerEvent: {}
+[1.807072] (-) TimerEvent: {}
+[1.907449] (-) TimerEvent: {}
+[2.007812] (-) TimerEvent: {}
+[2.108167] (-) TimerEvent: {}
+[2.208554] (-) TimerEvent: {}
+[2.308912] (-) TimerEvent: {}
+[2.409287] (-) TimerEvent: {}
+[2.509639] (-) TimerEvent: {}
+[2.609995] (-) TimerEvent: {}
+[2.710346] (-) TimerEvent: {}
+[2.810705] (-) TimerEvent: {}
+[2.911063] (-) TimerEvent: {}
+[3.011434] (-) TimerEvent: {}
+[3.111789] (-) TimerEvent: {}
+[3.212145] (-) TimerEvent: {}
+[3.312515] (-) TimerEvent: {}
+[3.412869] (-) TimerEvent: {}
+[3.513243] (-) TimerEvent: {}
+[3.613607] (-) TimerEvent: {}
+[3.713953] (-) TimerEvent: {}
+[3.814313] (-) TimerEvent: {}
+[3.914673] (-) TimerEvent: {}
+[4.015027] (-) TimerEvent: {}
+[4.115400] (-) TimerEvent: {}
+[4.215749] (-) TimerEvent: {}
+[4.316096] (-) TimerEvent: {}
+[4.416467] (-) TimerEvent: {}
+[4.516827] (-) TimerEvent: {}
+[4.617190] (-) TimerEvent: {}
+[4.717561] (-) TimerEvent: {}
+[4.817927] (-) TimerEvent: {}
+[4.918282] (-) TimerEvent: {}
+[5.018638] (-) TimerEvent: {}
+[5.118991] (-) TimerEvent: {}
+[5.219354] (-) TimerEvent: {}
+[5.319712] (-) TimerEvent: {}
+[5.420047] (-) TimerEvent: {}
+[5.520397] (-) TimerEvent: {}
+[5.620741] (-) TimerEvent: {}
+[5.721075] (-) TimerEvent: {}
+[5.821430] (-) TimerEvent: {}
+[5.921771] (-) TimerEvent: {}
+[6.022105] (-) TimerEvent: {}
+[6.122462] (-) TimerEvent: {}
+[6.222797] (-) TimerEvent: {}
+[6.323131] (-) TimerEvent: {}
+[6.423483] (-) TimerEvent: {}
+[6.523820] (-) TimerEvent: {}
+[6.624157] (-) TimerEvent: {}
+[6.724577] (-) TimerEvent: {}
+[6.824910] (-) TimerEvent: {}
+[6.925266] (-) TimerEvent: {}
+[7.025595] (-) TimerEvent: {}
+[7.125938] (-) TimerEvent: {}
+[7.226741] (-) TimerEvent: {}
+[7.327152] (-) TimerEvent: {}
+[7.427553] (-) TimerEvent: {}
+[7.527889] (-) TimerEvent: {}
+[7.628233] (-) TimerEvent: {}
+[7.728549] (-) TimerEvent: {}
+[7.828885] (-) TimerEvent: {}
+[7.929281] (-) TimerEvent: {}
+[8.029594] (-) TimerEvent: {}
+[8.129956] (-) TimerEvent: {}
+[8.230324] (-) TimerEvent: {}
+[8.330686] (-) TimerEvent: {}
+[8.418023] (ired_bringup) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking CXX executable iredcr_modbus_node\x1b[0m\n'}
+[8.430793] (-) TimerEvent: {}
+[8.531064] (-) TimerEvent: {}
+[8.631364] (-) TimerEvent: {}
+[8.731727] (-) TimerEvent: {}
+[8.757251] (ired_bringup) StdoutLine: {'line': b'[100%] Built target iredcr_modbus_node\n'}
+[8.770092] (ired_bringup) CommandEnded: {'returncode': 0}
+[8.770803] (ired_bringup) JobProgress: {'identifier': 'ired_bringup', 'progress': 'install'}
+[8.781383] (ired_bringup) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/joe/robot_ws/build/ired_bringup'], 'cwd': '/home/joe/robot_ws/build/ired_bringup', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'joe', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/joe/robot_ws/install/ired_msgs/lib:/home/joe/robot_ws/install/csm/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/joe', 'OLDPWD': '/home/joe', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2705', 'SYSTEMD_EXEC_PID': '3341', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '4275', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/joe/robot_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'joe', 'JOURNAL_STREAM': '9:29854', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'joe', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/Joe-UbuntuSdcard:@/tmp/.ICE-unix/3032,unix/Joe-UbuntuSdcard:/tmp/.ICE-unix/3032', 'INVOCATION_ID': '1e4b7b93bbe84ea1b50f0d116271abaf', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.JB5IK3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/joe/robot_ws/install/rplidar_ros:/home/joe/robot_ws/install/ros2_laser_scan_matcher:/home/joe/robot_ws/install/ired_teleop:/home/joe/robot_ws/install/ired_rviz:/home/joe/robot_ws/install/ired_navigation:/home/joe/robot_ws/install/ired_bringup:/home/joe/robot_ws/install/ired_msgs:/home/joe/robot_ws/install/csm:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:6a028e7f-1add-4ac0-9b7b-3c14c83390e1', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/joe/robot_ws/build/ired_bringup', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/joe/robot_ws/install/ired_msgs/lib/python3.12/site-packages:/home/joe/robot_ws/build/ired_teleop:/home/joe/robot_ws/install/ired_teleop/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/joe/robot_ws/install/ired_msgs:/home/joe/robot_ws/install/rplidar_ros:/home/joe/robot_ws/install/ros2_laser_scan_matcher:/home/joe/robot_ws/install/ired_rviz:/home/joe/robot_ws/install/ired_navigation:/home/joe/robot_ws/install/ired_bringup:/home/joe/robot_ws/install/csm:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/joe/robot_ws/install/ired_teleop:/opt/ros/jazzy'}), 'shell': False}
+[8.789721] (ired_bringup) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.790099] (ired_bringup) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[8.790338] (ired_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/joe/robot_ws/install/ired_bringup/lib/ired_bringup/forward_kinematics_node\n'}
+[8.790499] (ired_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/joe/robot_ws/install/ired_bringup/lib/ired_bringup/inverse_kinematics_node\n'}
+[8.790633] (ired_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/joe/robot_ws/install/ired_bringup/lib/ired_bringup/imu_node\n'}
+[8.790738] (ired_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/joe/robot_ws/install/ired_bringup/lib/ired_bringup/iredcr_modbus_node\n'}
+[8.790818] (ired_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/joe/robot_ws/install/ired_bringup/lib/ired_bringup/odom_node\n'}
+[8.791077] (ired_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/joe/robot_ws/install/ired_bringup/share/ired_bringup/launch/bringup.launch.py\n'}
+[8.791274] (ired_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/joe/robot_ws/install/ired_bringup/share/ired_bringup/param/ired.yaml\n'}
+[8.791390] (ired_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/joe/robot_ws/install/ired_bringup/share/ired_bringup/param/laser_config.yaml\n'}
+[8.791487] (ired_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/joe/robot_ws/install/ired_bringup/share/ired_bringup/param/laser_scan_matcher.yaml\n'}
+[8.791618] (ired_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/joe/robot_ws/install/ired_bringup/share/ired_bringup/urdf/ired.urdf.xacro\n'}
+[8.791871] (ired_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/joe/robot_ws/install/ired_bringup/include//ired_bringup/forward_kinematics.hpp\n'}
+[8.791974] (ired_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/joe/robot_ws/install/ired_bringup/include//ired_bringup/imu.hpp\n'}
+[8.792066] (ired_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/joe/robot_ws/install/ired_bringup/include//ired_bringup/inverse_kinematics.hpp\n'}
+[8.792153] (ired_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/joe/robot_ws/install/ired_bringup/include//ired_bringup/ired_controller.hpp\n'}
+[8.792241] (ired_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/joe/robot_ws/install/ired_bringup/include//ired_bringup/ired_controller_define.hpp\n'}
+[8.792323] (ired_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/joe/robot_ws/install/ired_bringup/include//ired_bringup/odom.hpp\n'}
+[8.792398] (ired_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/joe/robot_ws/install/ired_bringup/include//modbus_rtu.hpp\n'}
+[8.792507] (ired_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/joe/robot_ws/install/ired_bringup/share/ament_index/resource_index/package_run_dependencies/ired_bringup\n'}
+[8.792630] (ired_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/joe/robot_ws/install/ired_bringup/share/ament_index/resource_index/parent_prefix_path/ired_bringup\n'}
+[8.792783] (ired_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/joe/robot_ws/install/ired_bringup/share/ired_bringup/environment/ament_prefix_path.sh\n'}
+[8.792866] (ired_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/joe/robot_ws/install/ired_bringup/share/ired_bringup/environment/ament_prefix_path.dsv\n'}
+[8.792979] (ired_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/joe/robot_ws/install/ired_bringup/share/ired_bringup/environment/path.sh\n'}
+[8.793086] (ired_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/joe/robot_ws/install/ired_bringup/share/ired_bringup/environment/path.dsv\n'}
+[8.793222] (ired_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/joe/robot_ws/install/ired_bringup/share/ired_bringup/local_setup.bash\n'}
+[8.793329] (ired_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/joe/robot_ws/install/ired_bringup/share/ired_bringup/local_setup.sh\n'}
+[8.793442] (ired_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/joe/robot_ws/install/ired_bringup/share/ired_bringup/local_setup.zsh\n'}
+[8.793538] (ired_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/joe/robot_ws/install/ired_bringup/share/ired_bringup/local_setup.dsv\n'}
+[8.793619] (ired_bringup) StdoutLine: {'line': b'-- Symlinking: /home/joe/robot_ws/install/ired_bringup/share/ired_bringup/package.dsv\n'}
+[8.803977] (ired_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/joe/robot_ws/install/ired_bringup/share/ament_index/resource_index/packages/ired_bringup\n'}
+[8.804229] (ired_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/joe/robot_ws/install/ired_bringup/share/ired_bringup/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[8.804440] (ired_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/joe/robot_ws/install/ired_bringup/share/ired_bringup/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[8.804671] (ired_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/joe/robot_ws/install/ired_bringup/share/ired_bringup/cmake/ired_bringupConfig.cmake\n'}
+[8.804853] (ired_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/joe/robot_ws/install/ired_bringup/share/ired_bringup/cmake/ired_bringupConfig-version.cmake\n'}
+[8.804979] (ired_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/joe/robot_ws/install/ired_bringup/share/ired_bringup/package.xml\n'}
+[8.806568] (ired_bringup) CommandEnded: {'returncode': 0}
+[8.816907] (ired_bringup) JobEnded: {'identifier': 'ired_bringup', 'rc': 0}
+[8.817826] (-) EventReactorShutdown: {}
